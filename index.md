@@ -36,13 +36,14 @@ Part 1 consists of playing a bit with the datasets to have a rough idea of their
 You will also subsample the datasets to be able to perform quick tests.
 
 The goal of Part 2 is to obtain a quick, initial assembly of the _V. cholerae_ genome using any of these datasets.
-You could use any of the assemblers which have been pre-installed on your Instance. “But, which one?”, you ask. Well, the point of this part is to let you to take initiatives and pick one!
+You could use any of the assemblers which have been pre-installed on your Instance.
+ “But, which one?”, you ask. Well, the point of this part is to let you to take initiatives and pick one!
 So, for this first attempt, if the assembler asks for any parameter, try to guess a reasonable value but do not over-think it. At this point, it does not matter if the assembly is of poor quality.
 In this step, you can try to work with a subsampling of your datasets to accelerate the process.
 
-In Part 3, you will measure the quality of your initial assembly and recognize that it could possibly be improved. Once you have generated your first assembly, move to Part 3. If you are stuck, don’t panic, either ask a TA or follow the detailed steps below.
+In Part 3, you will measure the quality of your initial assembly and recognize that it could possibly be improved. Once you have generated your first assembly, move to Part 3. If you are stuck, don’t panic and ask a TA.
 
-Finally in Part 4 you submit your assembly to the state of the art:
+Finally in Part 4 you submit your assembly statistics to the state of the art:
 https://docs.google.com/spreadsheets/d/1WJ_AYZ8tkrexKSPRNl1dpr5F1Z2PHReNDbVGnzdnuAA/edit?usp=sharing
 
 
@@ -81,7 +82,7 @@ __Q:__ *Choose an assembly strategy*
 __Q:__ *Assemble!*
 
 
-__HINT__: You can read the assemblers paper/website to decide what you will do next
+__HINT__: You can read the assemblers paper/website during the runtim to decide what you will do next
 
 ### Available long reads assemblers
 1. Miniasm
@@ -93,14 +94,14 @@ __HINT__: You can read the assemblers paper/website to decide what you will do n
 
 Miniasm is a rather particular long-read assembler as it does not include a consensus step.
 The resulting contigs are just merged erroneous long reads and still contains many sequencing errors.
-Produced contigs are structurally correct, but at the nucleotide level, there are many, many, mismatches and indels.
+Produced contigs are structurally correct, but at the nucleotide level, there are many, mismatches and indels.
 For most applications, the contigs need to be polished. E.g., using the Racon software
 or Minipolish.
 
   Miniasm Work in two steps:
   1. Find overlaps (minimap2)
   2. Generate contigs (miniasm)
-  3. Miniasm do not include a polishing step. You can try Minipolish (https://github.com/rrwick/Minipolish)
+  3. Miniasm do not include a polishing step, but you can try Minipolish (https://github.com/rrwick/Minipolish)
 
 Minimap2 Website: https://github.com/lh3/minimap2
 
@@ -116,7 +117,7 @@ Miniasm Website: https://github.com/lh3/miniasm
 
 #### 2. Raven
 
-Raven is overlap graph assembler based on existing components: Minimap and Racon (polishing) and use them to produce a clean and contiguous assembly.
+Raven is overlap graph assembler based on existing components: Minimap (overlap detection) and Racon (polishing) and use them to produce a clean and contiguous assembly.
 
 [//]: # raven LR_0.1.fa  --graphical-fragment-assembly raven_graph.gfa -t 8 > raven_contigs.fa
 
@@ -163,9 +164,9 @@ will not be used for this workshop.
   [//]: # spades.py --12 SRR531199.fastq -o work_dir --pacbio ERR1716491.fastq
 
 
- __HINT__:  Spades can be quite long. You can use a single size of _k_ to get results faster with the `-k` option
+ __HINT__:  Spades runtime can be  long. You can use a single size of _k_ to get results faster with the `-k` option
 
- __HINT__:  Spades can be very long. You can skip the correction module to get results faster with the `--only-assembler` option
+ __HINT__:  For real, Spades can be very long. You can skip the correction module to get results faster with the `--only-assembler` option
 
 
   [//]: # spades.py --12 SRR531199.fastq -o work_dir -k 33
@@ -229,18 +230,18 @@ To evaluate your assembly, you will run  Quast on your contigs file.
  A (very nice) manual can be found here http://quast.bioinf.spbau.ru/manual.html.
 
 ```
-./quast.py -o output_directory assembly.fa
+quast.py -o output_directory assembly.fa
 ```
 
  Move into your QUAST output directory and examine the report.txt file. You may also take a look at the HTML file.
 
- Note: only "large enough" contigs will be considered. Contigs smaller than 500bp are ignored by Quast.
+ __HINT__: Only "large" contigs will be considered. Contigs smaller than 500bp are ignored by Quast by default.
 
 Now we will compare your contigs with the reference genome.
 With the `-r` option, Quast will align your contigs on your reference genome and estimate their accuracy.
 
 ```
-./quast.py -o output_directory assembly.fa -r vcholerae_h1.fasta
+quast.py -o output_directory assembly.fa -r vcholerae_h1.fasta
 ```
 
 
@@ -255,7 +256,7 @@ __Q:__  *How contiguous is your assembly (N50/N75/NGA50/NGA75 metrics)*
 __HINT__: If your contigs contain too many errors, Quast will not align them on the reference. In such cases (ie, miniasm unpolished assembly), you can use the `--min-identity` Quast parameter.
 
 ```
-./gatb quast.py -o output_directory assembly.fa -r vcholerae_h1.fasta  --min-identity 0.8
+quast.py -o output_directory assembly.fa -r vcholerae_h1.fasta  --min-identity 0.8
 ```
 
 
@@ -296,7 +297,7 @@ __Q:__ *How many annotated proteins were predicted by Prokka?*
 __Q:__  *Across all reported assemblies in the Google Docs, what is the variability of the number of annotated genes?*
 
 
-### Call SNP (Optional)
+### Call SNP (optional^2)
 Actually, the reference genome, the Illumina, and  Pacbio datasets aren’t from the same exact strain, so they may differ one from another.
 To visualize those differences, you may align your Illumina reads to the reference genome and/or a Pacbio assembly and call SNPs.
 To do so, you may use samtools mpileup: http://samtools.sourceforge.net/mpileup.shtml.
@@ -318,7 +319,7 @@ At this point, you may be tempted to re-run your assembly with better parameters
 Now is your time for your brain (and your computer) to shine and to perform the best assembly!
 
 
-The best assembly get a ~cookie~ waffle!
+The best assembly get a ~~cookie~~ waffle!
 
 
 
