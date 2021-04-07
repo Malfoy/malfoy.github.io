@@ -1,8 +1,5 @@
 # 	Working with Sequence Data Lab: Assembly
 
-![alt text][logo3]
-
-[logo3]:https://github.com/Malfoy/malfoy.github.io/blob/master/assemblyRW.pdf
 
 ## Steps
 
@@ -19,8 +16,6 @@
 Imagine there is a cholera outbreak in Krumlov. “Luckily”, we have access to nearby sequencers, and we produced sequencing datasets from bacterial isolates. So you have both a PacBio run and an Illumina run. Now the task is to assemble the data in order to do various analyses later: check the phylogeny of that strain, what makes it different from other strains in terms of gene content, SNPs, structural variants, etc. And remember: don’t drink the water, it’s a known vector of contamination. Czech beer is perfectly safe, though.
 
 You are given several sequencing datasets from the same organism:  _V. cholerae_, which has a genome size of ~4 Mbp. The goal is to perform an assembly of the _V. cholerae_ genome. It is known that the genome has 2 chromosomes and has around 3,800 annotated genes.
-
-![alt text][logo2]
 
 The following datasets are provided in the Workshop AMI but can also be downloaded by using the ERRxxxxxx identifiers on the Sequence Read Archive with fastq-dump from the SRA toolkit (https://ncbi.github.io/sra-tools/install_config.html).
 
@@ -335,8 +330,6 @@ The best assembly get a ~cookie~ waffle!
 ![alt text][logo]
 
 [logo]: https://i2.wp.com/www.wikitree.com/blog/wp-content/uploads/2014/07/dna1-263x300.jpg?resize=263%2C300
-
-[logo2]:https://www.cdc.gov/cholera/images/cholera-banner.jpg
 If you are brave enough, you can try to assemble this set of reads:
 
 
