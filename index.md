@@ -3,7 +3,7 @@
 
 ![alt text][logo3]
 
-[logo3]: https://github.com/Malfoy/malfoy.github.io/blob/master/assembly.png
+[logo3]: https://github.com/Malfoy/malfoy.github.io/blob/master/assemblyRW.pdf
 
 ## Steps
 
