@@ -101,19 +101,23 @@ Minimap2 Website: https://github.com/lh3/minimap2
 Miniasm Website: https://github.com/lh3/miniasm
 
 
-
-[//]: # minimap2 -x ava-pb -t8 ERR1716491.fastq.gz ERR1716491.fastq.gz | gzip -1 > reads.paf.gz
- [//]: # miniasm -f ERR1716491.fastq.gz reads.paf.gz > assembly.gfa
- [//]: # minipolish -t 8 ERR1716491.fastq.gz assembly.gfa > polished.gfa
-
+<!---  
+```
+minimap2 -x ava-pb -t8 ERR1716491.fastq.gz ERR1716491.fastq.gz | gzip -1 > reads.paf.gz
+ miniasm -f ERR1716491.fastq.gz reads.paf.gz > assembly.gfa
+ minipolish -t 8 ERR1716491.fastq.gz assembly.gfa > polished.gfa
+```
+-->
 
 
 #### 2. Raven
 
 Raven is overlap graph assembler based on existing components: Minimap and Racon (polishing) and use them to produce a clean and contiguous assembly.
-
-[//]: # raven LR_0.1.fa  --graphical-fragment-assembly raven_graph.gfa -t 8 > raven_contigs.fa
-
+<!---  
+```
+raven LR_0.1.fa  --graphical-fragment-assembly raven_graph.gfa -t 8 > raven_contigs.fa
+```
+-->
 Raven website: https://github.com/lbcb-sci/raven
 
 __HINT__: You can obtain a .gfa with the  `--graphical-fragment-assembly` option
@@ -124,9 +128,11 @@ __HINT__: You can obtain a .gfa with the  `--graphical-fragment-assembly` option
 Flye is a long read assembler based on an original paradigm. It builds a repeat graph that is conceptually similar to  De Bruijn graph but using approximate matches.
 Flye is also able to assemble metagenomes.
 
-
- [//]: # flye --pacbio-raw LR_0.1.fa --threads 8 --out-dir flye01  --genome-size 4000000
-
+<!---  
+```
+ flye --pacbio-raw LR_0.1.fa --threads 8 --out-dir flye01  --genome-size 4000000
+ ```
+ -->
 
 Flye website: https://github.com/fenderglass/Flye
 
@@ -152,18 +158,24 @@ will not be used for this workshop.
 
   Spades website: https://github.com/ablab/spades
 
+  <!---  
 
-  [//]: # spades.py --12 SRR531199.fastq -o work_dir
-  [//]: # spades.py --12 SRR531199.fastq -o work_dir --pacbio ERR1716491.fastq
-
+  ```
+  spades.py --12 SRR531199.fastq -o work_dir
+  spades.py --12 SRR531199.fastq -o work_dir --pacbio ERR1716491.fastq
+  ```
+ -->
 
  __HINT__:  Spades can be quite long. You can use a single size of _k_ to get results faster with the `-k` option
 
  __HINT__:  Spades can be very long. You can skip the correction module to get results faster with the `--only-assembler` option
 
+ <!---  
 
-  [//]: # spades.py --12 SRR531199.fastq -o work_dir -k 33
-
+  ```
+  spades.py --12 SRR531199.fastq -o work_dir -k 33
+  ```
+  -->
 
 
    __HINT__: If you run the multiple _k_ assembly, you can take a look at the successive contigs files produced from different values of _k_ in the work_dir/K21/final_contigs.fasta,  work_dir/K33/final_contigs.fasta before the whole process is finished.
@@ -174,14 +186,20 @@ will not be used for this workshop.
 
   Megahit website: https://github.com/voutcn/megahit
 
+  <!---  
 
-  [//]: # megahit --12 SRR531199.fastq -o out -t 8
-
+  ```
+  megahit --12 SRR531199.fastq -o out -t 8
+  ```
+-->
   __HINT__:  Like Spades, you can specify your own k-mer sizes to use with `--k-list  parameter`
 
+  <!---  
 
-[//]: #   megahit --12 SRR531199.fastq -o out -t 8 --k-list 21,41,61,81,101,121,141
-
+  ```
+  megahit --12 SRR531199.fastq -o out -t 8 --k-list 21,41,61,81,101,121,141
+```
+-->
 
 
 #### 3. Minia
@@ -191,8 +209,12 @@ will not be used for this workshop.
 
   __HINT__:  You can also just use minia to generate a contigs set without reads correction or scafolding
 
+  <!---  
 
-  [//]: # ./gatb --12 interleaved_reads.fastq
+  ```
+  ./gatb --12 interleaved_reads.fastq
+  ```
+  -->
 
   Minia website: https://github.com/GATB/gatb-minia-pipeline
 
@@ -247,7 +269,6 @@ __Q:__  *What part of your genome is covered by your contigs?*
 __Q:__  *How contiguous is your assembly (N50/N75/NGA50/NGA75 metrics)*
 
 __HINT__: If your contigs contain too many errors, Quast will not align them on the reference. In such cases (ie, miniasm unpolished assembly), you can use the `--min-identity` Quast parameter.
-
 ```
 ./gatb quast.py -o output_directory assembly.fa -r vcholerae_h1.fasta  --min-identity 0.8
 ```
@@ -365,6 +386,6 @@ TCATTAGGCG
 AGGCGGAGCT
 
 
-__HINT__:  There is NO sequencing errors
+  __HINT__:  There is NO sequencing errors
 
 __HINT__: Overlaps are at least of length 5
