@@ -1,9 +1,8 @@
 # 	Working with Sequence Data Lab: Assembly
 
-
 ![alt text][logo3]
 
-[logo3]: https://github.com/Malfoy/malfoy.github.io/blob/master/assemblyRW.pdf
+[logo3]:https://github.com/Malfoy/malfoy.github.io/blob/master/assemblyRW.pdf
 
 ## Steps
 
@@ -337,7 +336,7 @@ The best assembly get a ~cookie~ waffle!
 
 [logo]: https://i2.wp.com/www.wikitree.com/blog/wp-content/uploads/2014/07/dna1-263x300.jpg?resize=263%2C300
 
-[logo2]: https://www.cdc.gov/cholera/images/cholera-banner.jpg
+[logo2]:https://www.cdc.gov/cholera/images/cholera-banner.jpg
 If you are brave enough, you can try to assemble this set of reads:
 
 
