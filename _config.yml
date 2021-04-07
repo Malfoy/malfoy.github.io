@@ -2,4 +2,4 @@ theme: jekyll-theme-slate
 title: Play with assembly
 description: Working with Sequence Data Lab Assembly 2020 WORKSHOP ON GENOMICS, CESKY KRUMLOV, CZECH REPUBLIC
 logo: assemblyRW.pdf
-show_downloads: false
+show_downloads: true
