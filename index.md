@@ -327,9 +327,7 @@ The best assembly get a ~cookie~ waffle!
 
 
 ## Part 5 Treasure Hunt (HARD)
-![alt text][logo]
 
-[logo]: https://i2.wp.com/www.wikitree.com/blog/wp-content/uploads/2014/07/dna1-263x300.jpg?resize=263%2C300
 If you are brave enough, you can try to assemble this set of reads:
 
 
