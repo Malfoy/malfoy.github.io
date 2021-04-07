@@ -6,7 +6,7 @@
 1. Assemble your genome
 2. Evaluate your assembly
 3. Compare it to the state of the art
-4. Go to 1.
+4. 1.
 
 
 
@@ -57,10 +57,17 @@ __Q:__ *Make datasets containing 10% of the initial coverage to make "quick" ass
 __HINT__: Use seqkit (https://bioinf.shenwei.me/seqkit/usage/)
 
 
+<!---
+My commands :
+```
+  seqkit stats ERR1716491.fasta
+  seqkit sort -l ERR1716491.fasta -r --line-width 0 > LRS.fasta
+  seqkit sample -p 0.1 ERR1716491.fasta --line-width 0 > LR_0.1.fa
+```
 
-[//]: #   seqkit stats ERR1716491.fasta
-[//]: #   seqkit sort -l ERR1716491.fasta -r --line-width 0 > LRS.fasta
-[//]: #   seqkit sample -p 0.1 ERR1716491.fasta --line-width 0 > LR_0.1.fa
+
+<!---  -->
+
 
 
 
