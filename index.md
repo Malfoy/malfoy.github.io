@@ -3,18 +3,6 @@
 **Chargé de recherche CNRS**  
 I am a **research associate in [BONSAI](https://www.cristal.univ-lille.fr/bonsai/) team (Lille, France)**. My work focuses on **methods and data structures** in **sequence bioinformatics**
 
-## Education
-
-
-
-- **2014:** M.Sc. in Computer Science, École Normale Supérieure de Rennes
-
-- **2012:** B.Sc. in Computer Science, École Normale Supérieure de Cachan
-
-- **2008-2011:** MPSI-MP*-MP*, Lycée Roosvelt et Lycée Clemenceau, Reims
-
-- **2008:** Baccalauréat Scientifique, Saint Dizier
-
 ## Experience
 
 - **2018  current:** Researcher at CNRS, CRIStAL, Lille.  
