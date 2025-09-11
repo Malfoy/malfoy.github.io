@@ -18,7 +18,6 @@ My goal is to create scalable, efficient, and accessible tools that enable new d
 ---
 
 
-## Publications
 
 ## 📚 Main Publications
 
@@ -167,6 +166,67 @@ All  my projects are open-source. Here are some of the key software packages dev
 
 ---
 
+## Diploma
+* **2025**: "Habilitation à diriger des recherche" (post-doctoral degree authorizing the supervision of PhD students), *Université de Lille*
+* **2017**: Ph.D in Computer Science, *Université de Rennes 1*
+    * *Thesis*: Novel approaches for the exploitation of high throughput sequencing data
+    * *Supervisors*: Pierre Peterlongo and Dominique Lavenier
+* **2014**: M.Sc. in Computer Science, *École Normale Supérieure de Rennes*
+* **2012**: B.Sc. in Computer Science, *École Normale Supérieure de Cachan*
+
+---
+
+## Professional Experience
+
+* **2018 - Present**: CNRS Researcher, *CRIStAL, Lille, France*
+* **2017 -2018**: Postdoctoral Researcher, *Université Libre de Bruxelles, Belgium*
+    * Worked on de novo assembly of heterozygous genomes.
+
+---
+## Grants & Funding
+
+* **2024**: **MIC INSERM** (Principal Investigator), €554k
+    * *Analyse efficace et évolutive du cancer par exploration transcriptomique avancée à grande échelle*
+* **2024**: **ANR** (Member), €500k
+    * *Shannon x Cray*
+* **2021**: **ANR JCJC** (Principal Investigator), €227k
+    * *Adequate graph structures for third-generation sequencing data exploration*
+* **2019**: **Region Haut de France PhD Grant** (Principal Investigator), €150k
+---
+
+
+
+## Professional Service
+
+### Conference Committees
+* **Program Committee**: RECOMB (2020-2024), ACM-BCB (2020-2024), ECCB/ISMB (2020-2024), SeqBim (2020-2024).
+* **Organizational Committee**: SPIRE (2021).
+
+### Reviewer Activities
+* Nature Methods, Nature Communication, Genome Research, Genome Biology, Nucleic Acids Research, Bioinformatics, Scientific Reports, and others.
+
+### Thesis Committees
+* **Nastasija Mijovic** (PhD Committee, 2023-2025)
+* **Riku Walve** (Examiner, 2022)
+* **Svitlana Lukicheva** (PhD Jury, 2021)
+* **Théo Lemane** (PhD Committee, 2020-2021)
+* **Nadege Guiglielmoni** (PhD Committee, 2019-2020)
+
+---
+
+## Invited Talks & Presentations
+
+* **2024**: EMBL-EBI Kmer/sequence indexing workshop, *Cambridge, UK*
+* **2024**: Kmer days, *Dijon, France*
+* **2023**: ISMB, *Lyon, France*
+* **2022**: RECOMB, *San Diego, US*
+* **2022**: DSB, *Düsseldorf, Germany*
+* **2022**: TUDASTIC, *Lille, France*
+* **2021**: Kmer days, *Marville, France*
+* **2019**: Biata, *Saint Petersburg, Russia*
+* **2018**: RECOMB, *Paris, France*
+
+---
 ## Contact
 
 **Antoine Limasset** CRIStAL (UMR 9189)  
