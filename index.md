@@ -192,6 +192,7 @@ All  my projects are open-source. Here are some of the key software packages dev
 * **2021**: **ANR JCJC** (Principal Investigator), €227k
     * *Adequate graph structures for third-generation sequencing data exploration*
 * **2019**: **Region Haut de France PhD Grant** (Principal Investigator), €150k
+
 ---
 
 
