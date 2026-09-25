@@ -1,0 +1,10 @@
+{% assign papers = site.data.publications | where: "category", include.category %}
+{% assign years = papers | group_by: "year" %}
+{% for year in years %}
+### {{ year.name }}
+
+{% for paper in year.items %}
+- **[{{ paper.title }}]({{ paper.links.first.url }})**<br>
+  {% if page.lang == 'fr' %}{{ paper.venue | replace: 'preprint', 'prépublication' }}. {{ paper.note_fr }}{% else %}{{ paper.venue }}. {{ paper.note }}{% endif %}
+{% endfor %}
+{% endfor %}

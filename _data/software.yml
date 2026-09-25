@@ -1,0 +1,108 @@
+- name: ZOR
+  url: https://github.com/Malfoy/ZOR
+  description: Memory-efficient approximate membership filters.
+  description_fr: Filtres d’appartenance approchée économes en mémoire.
+- name: SuperBloom
+  url: https://github.com/EtienneC-K/SuperBloom
+  description: Fast Bloom filters for streaming k-mer queries.
+  description_fr: Filtres de Bloom rapides pour les requêtes de k-mers en flux.
+- name: Onika
+  url: https://github.com/Malfoy/Onika
+  description: Compressed inverted indexes for scalable sequence similarity search.
+  description_fr: Index inversés compressés pour rechercher des séquences similaires à grande échelle.
+- name: KLOE
+  url: https://github.com/TimRouze/KLOE
+  description: Compression and targeted retrieval of k-mer sets across sample collections.
+  description_fr: Compression et extraction ciblée d’ensembles de k-mers dans des collections d’échantillons.
+- name: REINDEER2
+  url: https://github.com/Yohan-HernandezCourbevoie/REINDEER2
+  description: Scalable indexing and querying of k-mer abundances.
+  description_fr: Indexation et interrogation des abondances de k-mers à grande échelle.
+- name: K2R
+  url: https://github.com/LeaVandamme/K2R
+  description: Exact retrieval of reads containing specified k-mers.
+  description_fr: Extraction exacte des lectures contenant des k-mers donnés.
+- name: K2Rmini
+  url: https://github.com/Malfoy/K2Rmini
+  description: Fast k-mer-based sequence filtering.
+  description_fr: Filtrage rapide de séquences fondé sur les k-mers.
+- name: OReO
+  url: https://github.com/girunivlille/oreo
+  description: Read reordering for practical sequence compression.
+  description_fr: Réordonnancement des lectures pour faciliter leur compression.
+- name: OReO-mini
+  url: https://github.com/Malfoy/Oreo-mini
+  description: Lightweight read partitioning using one-bit MinHash sketches.
+  description_fr: Partitionnement léger des lectures à l’aide d’esquisses MinHash sur un bit.
+- name: KFC
+  url: https://github.com/lrobidou/KFC
+  description: K-mer counting using compact hyper-k-mer representations.
+  description_fr: Comptage de k-mers à l’aide de représentations compactes en hyper-k-mers.
+- name: CBL
+  url: https://github.com/Malfoy/CBL
+  description: Exact, dynamic k-mer sets with support for set operations.
+  description_fr: Ensembles exacts et dynamiques de k-mers, avec opérations ensemblistes.
+- name: LPHASH
+  url: https://github.com/jermp/lphash
+  description: Compact locality-preserving minimal perfect hashing of k-mers.
+  description_fr: Hachage parfait minimal compact de k-mers préservant la localité.
+- name: PAC
+  url: https://github.com/Malfoy/PAC
+  description: Sequence database search using partitioned aggregated Bloom comb trees.
+  description_fr: Recherche dans des bases de séquences à l’aide de Partitioned Aggregated Bloom Comb-Trees.
+- name: SuperSampler
+  url: https://github.com/TimRouze/supersampler
+  description: Efficient genomic sketching using fractional hitting sets.
+  description_fr: Esquisses génomiques efficaces à l’aide d’ensembles transversaux fractionnaires.
+- name: NIQKI
+  url: https://github.com/Malfoy/NIQKI
+  description: Fingerprint indexing for large-scale genomic sketch comparisons.
+  description_fr: Indexation d’empreintes pour comparer des esquisses génomiques à grande échelle.
+- name: MSA-Limit
+  url: https://gitlab.cristal.univ-lille.fr/crohmer/msa-limit
+  description: Evaluation of multiple sequence alignment methods for sequencing errors.
+  description_fr: Évaluation des méthodes d’alignement multiple face aux erreurs de séquençage.
+- name: STRONG
+  url: https://github.com/chrisquince/STRONG
+  description: Metagenomic strain resolution on assembly graphs.
+  description_fr: Résolution de souches métagénomiques sur les graphes d’assemblage.
+- name: BLight
+  url: https://github.com/Malfoy/Blight
+  description: Efficient exact associative k-mer dictionaries.
+  description_fr: Dictionnaires associatifs exacts et efficaces pour les k-mers.
+- name: Brisk
+  url: https://github.com/Malfoy/Brisk
+  description: A resource-efficient exact k-mer dictionary.
+  description_fr: Dictionnaire exact de k-mers économe en ressources.
+- name: CONSENT
+  url: https://github.com/morispi/CONSENT
+  description: Long-read self-correction and assembly polishing with multiple sequence alignment.
+  description_fr: Autocorrection des lectures longues et polissage d’assemblages par alignement multiple.
+- name: BCOOL
+  url: https://github.com/Malfoy/BCOOL
+  description: Short-read correction using de Bruijn graphs.
+  description_fr: Correction des lectures courtes à l’aide de graphes de de Bruijn.
+- name: BGREAT
+  url: https://github.com/Malfoy/BGREAT
+  description: Read mapping on de Bruijn graphs.
+  description_fr: Alignement des lectures sur les graphes de de Bruijn.
+- name: BWISE
+  url: https://github.com/Malfoy/BWISE
+  description: Short-read assembly for heterozygous and polyploid genomes.
+  description_fr: Assemblage de lectures courtes pour les génomes hétérozygotes et polyploïdes.
+- name: ELECTOR
+  url: https://github.com/kamimrcht/ELECTOR
+  description: Evaluation of long-read correction methods.
+  description_fr: Évaluation des méthodes de correction de lectures longues.
+- name: BBHash
+  url: https://github.com/rizkg/BBHash
+  description: Fast and scalable minimal perfect hashing for massive key sets.
+  description_fr: Hachage parfait minimal rapide pour des ensembles massifs de clés.
+- name: BCALM2
+  url: https://github.com/GATB/bcalm
+  description: Compacted de Bruijn graph construction in low memory.
+  description_fr: Construction de graphes de de Bruijn compactés en faible mémoire.
+- name: SRC
+  url: https://github.com/GATB/short_read_connector
+  description: Sequence abundance estimation and read similarity search.
+  description_fr: Estimation des abondances de séquences et recherche de similarités entre lectures.

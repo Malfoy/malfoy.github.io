@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: "en" }}">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+{% seo %}
+    {% if page.translation_url %}
+    <link rel="alternate" hreflang="{{ page.lang }}" href="{{ page.url | absolute_url }}">
+    <link rel="alternate" hreflang="{% if page.lang == 'fr' %}en{% else %}fr{% endif %}" href="{{ page.translation_url | absolute_url }}">
+    {% endif %}
+    <link rel="stylesheet" href="{{ "/assets/css/style.css?v=" | append: site.github.build_revision | relative_url }}">
+    <!--[if lt IE 9]>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <![endif]-->
+    {% include head-custom.html %}
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        {% if page.lang == "fr" %}{% assign home_url = "/fr/" %}{% else %}{% assign home_url = "/" %}{% endif %}
+        <h1><a href="{{ home_url | absolute_url }}">{{ site.title | default: site.github.repository_name }}</a></h1>
+
+        {% if site.logo %}
+          <img src="{{ site.logo | relative_url }}" alt="{% if page.lang == 'fr' %}Portrait d’Antoine Limasset{% else %}Portrait of Antoine Limasset{% endif %}" style="max-width:180px;height:auto" />
+        {% endif %}
+
+        <p>{{ site.description | default: site.github.project_tagline }}</p>
+        <p><a href="https://orcid.org/0000-0002-0669-4141">ORCID</a> · <a href="https://scholar.google.com/citations?user=EW4USK4AAAAJ">Google Scholar</a><br><a href="https://bsky.app/profile/npmalfoy.bsky.social">@npmalfoy.bsky.social</a></p>
+
+        {% if site.github.is_project_page %}
+        <p class="view"><a href="{{ site.github.repository_url }}">View the Project on GitHub <small>{{ site.github.repository_nwo }}</small></a></p>
+        {% endif %}
+
+        {% if site.github.is_user_page %}
+        <p class="view"><a href="{{ site.github.owner_url }}">{% if page.lang == "fr" %}Mon profil GitHub{% else %}View My GitHub Profile{% endif %}</a></p>
+        {% endif %}
+
+        {% if site.show_downloads %}
+        <ul class="downloads">
+          <li><a href="{{ site.github.zip_url }}">Download <strong>ZIP File</strong></a></li>
+          <li><a href="{{ site.github.tar_url }}">Download <strong>TAR Ball</strong></a></li>
+          <li><a href="{{ site.github.repository_url }}">View On <strong>GitHub</strong></a></li>
+        </ul>
+        {% endif %}
+      </header>
+      <section>
+
+      {{ content }}
+
+      </section>
+      <footer>
+        {% if site.github.is_project_page %}
+        <p>This project is maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a></p>
+        {% endif %}
+        <p><small>{% if page.lang == "fr" %}Hébergé sur GitHub Pages &mdash; Thème de{% else %}Hosted on GitHub Pages &mdash; Theme by{% endif %} <a href="https://github.com/orderedlist">orderedlist</a></small></p>
+      </footer>
+    </div>
+    <script src="{{ "/assets/js/scale.fix.js" | relative_url }}"></script>
+  </body>
+</html>

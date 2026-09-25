@@ -1,0 +1,25 @@
+{% assign years = site.data.publications | group_by: "year" %}
+{% for year in years %}
+## {{ year.name }}
+
+{% for paper in year.items %}
+### {{ paper.title }}
+
+{% assign author_count = paper.authors | size %}
+{% if author_count > 10 %}
+<details>
+<summary>{% if page.lang == 'fr' %}Les {{ author_count }} auteurs{% else %}All {{ author_count }} authors{% endif %}</summary>
+<p>{{ paper.authors | join: "; " | escape }}</p>
+</details>
+{% else %}
+{{ paper.authors | join: "; " }}.
+{% endif %}
+
+*{% if page.lang == 'fr' %}{{ paper.venue | replace: 'preprint', 'prépublication' }}{% else %}{{ paper.venue }}{% endif %}* ({{ paper.year }}).
+
+{% if page.lang == 'fr' %}{{ paper.note_fr }}{% else %}{{ paper.note }}{% endif %}
+
+{% for link in paper.links %}[{% if page.lang == 'fr' %}{{ link.label | replace: 'Preprint', 'Prépublication' | replace: 'Proceedings, pp.', 'Actes, p.' }}{% else %}{{ link.label }}{% endif %}]({{ link.url }}){% unless forloop.last %} · {% endunless %}{% endfor %}
+
+{% endfor %}
+{% endfor %}

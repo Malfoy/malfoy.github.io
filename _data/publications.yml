@@ -1,0 +1,1011 @@
+- year: 2026
+  authors:
+  - Antoine Limasset
+  title: 'ZOR Filters: Fast and Smaller Than Fuse Filters'
+  venue: 24th International Symposium on Experimental Algorithms (SEA 2026), LIPIcs 371, 24:1–24:17. Schloss Dagstuhl
+    – Leibniz-Zentrum für Informatik
+  note: ''
+  links:
+  - label: DOI
+    url: https://doi.org/10.4230/LIPIcs.SEA.2026.24
+  category: main
+  bibtex:
+    type: inproceedings
+    key: limasset20261
+    author: Limasset, Antoine
+    year: 2026
+    doi: 10.4230/LIPIcs.SEA.2026.24
+    url: https://doi.org/10.4230/LIPIcs.SEA.2026.24
+    booktitle: 24th International Symposium on Experimental Algorithms (SEA 2026)
+    series: Leibniz International Proceedings in Informatics (LIPIcs)
+    volume: '371'
+    pages: 24:1--24:17
+    publisher: Schloss Dagstuhl – Leibniz-Zentrum für Informatik
+  note_fr: ''
+- year: 2026
+  authors:
+  - Florian Ingels
+  - Léa Vandamme
+  - Mathilde Girard
+  - Clément Agret
+  - Bastien Cazaux
+  - Antoine Limasset
+  title: Compressed inverted indexes for scalable sequence similarity
+  venue: RECOMB 2026
+  note: 'Available text: bioRxiv preprint, first posted in 2025.'
+  links:
+  - label: Preprint
+    url: https://doi.org/10.1101/2025.11.21.689685
+  - label: RECOMB 2026
+    url: https://recomb.org/recomb2026/accepted_papers.html
+  category: main
+  bibtex:
+    type: misc
+    key: ingels20252
+    author: Ingels, Florian and Vandamme, Léa and Girard, Mathilde and Agret, Clément and Cazaux, Bastien and Limasset,
+      Antoine
+    year: 2025
+    doi: 10.1101/2025.11.21.689685
+    url: https://doi.org/10.1101/2025.11.21.689685
+    howpublished: bioRxiv preprint
+    note: Presented at RECOMB 2026
+  note_fr: 'Texte disponible : prépublication bioRxiv, déposée en 2025.'
+- year: 2026
+  authors:
+  - Florian Ingels
+  - Lucas Robidou
+  - Igor Martayan
+  - Camille Marchet
+  - Antoine Limasset
+  title: 'Minimizer Density revisited: Models and Multiminimizers'
+  venue: RECOMB 2026
+  note: 'Available text: bioRxiv preprint, first posted in 2025.'
+  links:
+  - label: Preprint
+    url: https://doi.org/10.1101/2025.11.21.689688
+  - label: RECOMB 2026
+    url: https://recomb.org/recomb2026/accepted_papers.html
+  category: main
+  bibtex:
+    type: misc
+    key: ingels20253
+    author: Ingels, Florian and Robidou, Lucas and Martayan, Igor and Marchet, Camille and Limasset, Antoine
+    year: 2025
+    doi: 10.1101/2025.11.21.689688
+    url: https://doi.org/10.1101/2025.11.21.689688
+    howpublished: bioRxiv preprint
+    note: Presented at RECOMB 2026
+  note_fr: 'Texte disponible : prépublication bioRxiv, déposée en 2025.'
+- year: 2026
+  authors:
+  - Étienne Conchon-Kerjan
+  - Timothé Rouzé
+  - Lucas Robidou
+  - Florian Ingels
+  - Antoine Limasset
+  title: 'Super Bloom: Fast and precise filter for streaming k-mer queries'
+  venue: RECOMB-Seq 2026 ; preprint bioRxiv
+  note: ''
+  links:
+  - label: DOI
+    url: https://doi.org/10.64898/2026.03.17.712354
+  category: main
+  bibtex:
+    type: misc
+    key: conchonkerjan20264
+    author: Conchon-Kerjan, Étienne and Rouzé, Timothé and Robidou, Lucas and Ingels, Florian and Limasset, Antoine
+    year: 2026
+    doi: 10.64898/2026.03.17.712354
+    url: https://doi.org/10.64898/2026.03.17.712354
+    howpublished: bioRxiv preprint
+    note: Presented at RECOMB-Seq 2026
+  note_fr: ''
+- year: 2026
+  authors:
+  - Igor Martayan
+  - Léa Vandamme
+  - Bede Constantinides
+  - Bastien Cazaux
+  - Charles Paperman
+  - Antoine Limasset
+  title: Accelerating k-mer-based sequence filtering
+  venue: Peer Community Journal, 6, e55
+  note: ''
+  links:
+  - label: DOI
+    url: https://doi.org/10.24072/pcjournal.735
+  category: main
+  bibtex:
+    type: article
+    key: martayan20265
+    author: Martayan, Igor and Vandamme, Léa and Constantinides, Bede and Cazaux, Bastien and Paperman, Charles
+      and Limasset, Antoine
+    year: 2026
+    doi: 10.24072/pcjournal.735
+    url: https://doi.org/10.24072/pcjournal.735
+    journal: Peer Community Journal
+    volume: '6'
+    eid: e55
+  note_fr: ''
+- year: 2025
+  authors:
+  - Timothé Rouzé
+  - Rayan Chikhi
+  - Antoine Limasset
+  title: Inverted colored de Bruijn Graph for practical kmer sets storage
+  venue: bioRxiv, preprint
+  note: ''
+  links:
+  - label: DOI
+    url: https://doi.org/10.64898/2025.12.08.692073
+  category: main
+  bibtex:
+    type: misc
+    key: rouze20256
+    author: Rouzé, Timothé and Chikhi, Rayan and Limasset, Antoine
+    year: 2025
+    doi: 10.64898/2025.12.08.692073
+    url: https://doi.org/10.64898/2025.12.08.692073
+    howpublished: bioRxiv preprint
+  note_fr: ''
+- year: 2025
+  authors:
+  - Timothé Rouzé
+  - Igor Martayan
+  - Camille Marchet
+  - Antoine Limasset
+  title: Fractional hitting sets for efficient multiset sketching
+  venue: Algorithms for Molecular Biology, 20 (1), 1
+  note: ''
+  links:
+  - label: DOI
+    url: https://doi.org/10.1186/s13015-024-00268-0
+  category: main
+  bibtex:
+    type: article
+    key: rouze20257
+    author: Rouzé, Timothé and Martayan, Igor and Marchet, Camille and Limasset, Antoine
+    year: 2025
+    doi: 10.1186/s13015-024-00268-0
+    url: https://doi.org/10.1186/s13015-024-00268-0
+    journal: Algorithms for Molecular Biology
+    volume: '20'
+    number: '1'
+    eid: '1'
+  note_fr: ''
+- year: 2025
+  authors:
+  - Yohan Hernandez-Courbevoie
+  - Mikaël Salson
+  - Chloé Bessière
+  - Haoliang Xue
+  - Daniel Gautheret
+  - Camille Marchet
+  - Antoine Limasset
+  title: 'REINDEER2: Practical Abundance Index at Scale'
+  venue: String Processing and Information Retrieval (SPIRE 2025), Lecture Notes in Computer Science 16073, 156–171.
+    Springer Nature
+  note: ''
+  links:
+  - label: DOI
+    url: https://doi.org/10.1007/978-3-032-05228-5_14
+  category: main
+  bibtex:
+    type: inproceedings
+    key: hernandezcourbevoie20258
+    author: Hernandez-Courbevoie, Yohan and Salson, Mikaël and Bessière, Chloé and Xue, Haoliang and Gautheret,
+      Daniel and Marchet, Camille and Limasset, Antoine
+    year: 2025
+    doi: 10.1007/978-3-032-05228-5_14
+    url: https://doi.org/10.1007/978-3-032-05228-5_14
+    booktitle: String Processing and Information Retrieval
+    pages: 156--171
+    publisher: Springer Nature
+    series: Lecture Notes in Computer Science
+    volume: '16073'
+  note_fr: ''
+- year: 2025
+  authors:
+  - Mathilde Girard
+  - Léa Vandamme
+  - Bastien Cazaux
+  - Antoine Limasset
+  title: 'OReO: optimizing read order for practical compression'
+  venue: Bioinformatics Advances, 5 (1), vbaf128
+  note: ''
+  links:
+  - label: DOI
+    url: https://doi.org/10.1093/bioadv/vbaf128
+  category: main
+  bibtex:
+    type: article
+    key: girard20259
+    author: Girard, Mathilde and Vandamme, Léa and Cazaux, Bastien and Limasset, Antoine
+    year: 2025
+    doi: 10.1093/bioadv/vbaf128
+    url: https://doi.org/10.1093/bioadv/vbaf128
+    journal: Bioinformatics Advances
+    volume: '5'
+    number: '1'
+    eid: vbaf128
+  note_fr: ''
+- year: 2025
+  authors:
+  - Léa Vandamme
+  - Bastien Cazaux
+  - Antoine Limasset
+  title: 'K2R: Tinted de Bruijn graphs implementation for efficient read extraction from sequencing datasets'
+  venue: Bioinformatics Advances, 5 (1), vbaf111
+  note: ''
+  links:
+  - label: DOI
+    url: https://doi.org/10.1093/bioadv/vbaf111
+  category: main
+  bibtex:
+    type: article
+    key: vandamme202510
+    author: Vandamme, Léa and Cazaux, Bastien and Limasset, Antoine
+    year: 2025
+    doi: 10.1093/bioadv/vbaf111
+    url: https://doi.org/10.1093/bioadv/vbaf111
+    journal: Bioinformatics Advances
+    volume: '5'
+    number: '1'
+    eid: vbaf111
+  note_fr: ''
+- year: 2025
+  authors:
+  - Igor Martayan
+  - Lucas Robidou
+  - Yoshihiro Shibuya
+  - Antoine Limasset
+  title: 'Hyper-k-mers: Efficient Streaming k-mers Representation'
+  venue: Research in Computational Molecular Biology (RECOMB 2025), Lecture Notes in Computer Science 15647, 330–335.
+    Springer Nature
+  note: ''
+  links:
+  - label: DOI
+    url: https://doi.org/10.1007/978-3-031-90252-9_33
+  category: main
+  bibtex:
+    type: inproceedings
+    key: martayan202511
+    author: Martayan, Igor and Robidou, Lucas and Shibuya, Yoshihiro and Limasset, Antoine
+    year: 2025
+    doi: 10.1007/978-3-031-90252-9_33
+    url: https://doi.org/10.1007/978-3-031-90252-9_33
+    booktitle: Research in Computational Molecular Biology
+    pages: 330--335
+    publisher: Springer Nature
+    series: Lecture Notes in Computer Science
+    volume: '15647'
+  note_fr: ''
+- year: 2024
+  authors:
+  - Coralie Rohmer
+  - Hélène Touzet
+  - Antoine Limasset
+  title: Automated evaluation of multiple sequence alignment methods to handle third generation sequencing errors
+  venue: PeerJ, 12, e17731
+  note: ''
+  links:
+  - label: DOI
+    url: https://doi.org/10.7717/peerj.17731
+  category: main
+  bibtex:
+    type: article
+    key: rohmer202412
+    author: Rohmer, Coralie and Touzet, Hélène and Limasset, Antoine
+    year: 2024
+    doi: 10.7717/peerj.17731
+    url: https://doi.org/10.7717/peerj.17731
+    journal: PeerJ
+    volume: '12'
+    pages: e17731
+    eid: e17731
+  note_fr: ''
+- year: 2024
+  authors:
+  - Igor Martayan
+  - Bastien Cazaux
+  - Antoine Limasset
+  - Camille Marchet
+  title: 'Conway–Bromage–Lyndon (CBL): an exact, dynamic representation of k-mer sets'
+  venue: Bioinformatics, 40 (Suppl. 1), i48–i57
+  note: ''
+  links:
+  - label: DOI
+    url: https://doi.org/10.1093/bioinformatics/btae217
+  category: main
+  bibtex:
+    type: article
+    key: martayan202413
+    author: Martayan, Igor and Cazaux, Bastien and Limasset, Antoine and Marchet, Camille
+    year: 2024
+    doi: 10.1093/bioinformatics/btae217
+    url: https://doi.org/10.1093/bioinformatics/btae217
+    journal: Bioinformatics
+    volume: '40'
+    pages: i48--i57
+    number: Suppl. 1
+  note_fr: ''
+- year: 2024
+  authors:
+  - Caleb Smith
+  - Igor Martayan
+  - Antoine Limasset
+  - Yoann Dufresne
+  title: 'Brisk: Exact resource-efficient dictionary for k-mers'
+  venue: bioRxiv, preprint
+  note: ''
+  links:
+  - label: DOI
+    url: https://doi.org/10.1101/2024.11.26.625346
+  category: main
+  bibtex:
+    type: misc
+    key: smith202414
+    author: Smith, Caleb and Martayan, Igor and Limasset, Antoine and Dufresne, Yoann
+    year: 2024
+    doi: 10.1101/2024.11.26.625346
+    url: https://doi.org/10.1101/2024.11.26.625346
+    howpublished: bioRxiv preprint
+  note_fr: ''
+- year: 2024
+  authors:
+  - Clément Agret
+  - Annie Chateau
+  - Camille Marchet
+  - Alban Mancheron
+  - Antoine Limasset
+  title: Evaluating k-mer Transformations for Cache Coherence and Uniformity
+  venue: Zenodo, preprint
+  note: ''
+  links:
+  - label: DOI
+    url: https://doi.org/10.5281/zenodo.10870713
+  category: main
+  bibtex:
+    type: misc
+    key: agret202415
+    author: Agret, Clément and Chateau, Annie and Marchet, Camille and Mancheron, Alban and Limasset, Antoine
+    year: 2024
+    doi: 10.5281/zenodo.10870713
+    url: https://doi.org/10.5281/zenodo.10870713
+    howpublished: Zenodo preprint
+  note_fr: ''
+- year: 2023
+  authors:
+  - Giulio Ermanno Pibiri
+  - Yoshihiro Shibuya
+  - Antoine Limasset
+  title: Locality-preserving minimal perfect hashing of k-mers
+  venue: Bioinformatics, 39 (Suppl. 1), i534–i543
+  note: ''
+  links:
+  - label: DOI
+    url: https://doi.org/10.1093/bioinformatics/btad219
+  category: main
+  bibtex:
+    type: article
+    key: pibiri202316
+    author: Pibiri, Giulio Ermanno and Shibuya, Yoshihiro and Limasset, Antoine
+    year: 2023
+    doi: 10.1093/bioinformatics/btad219
+    url: https://doi.org/10.1093/bioinformatics/btad219
+    journal: Bioinformatics
+    volume: '39'
+    pages: i534--i543
+    number: Suppl. 1
+  note_fr: ''
+- year: 2023
+  authors:
+  - Camille Marchet
+  - Antoine Limasset
+  title: Scalable sequence database search using partitioned aggregated Bloom comb trees
+  venue: Bioinformatics, 39 (Suppl. 1), i252–i259
+  note: ''
+  links:
+  - label: DOI
+    url: https://doi.org/10.1093/bioinformatics/btad225
+  category: main
+  bibtex:
+    type: article
+    key: marchet202317
+    author: Marchet, Camille and Limasset, Antoine
+    year: 2023
+    doi: 10.1093/bioinformatics/btad225
+    url: https://doi.org/10.1093/bioinformatics/btad225
+    journal: Bioinformatics
+    volume: '39'
+    pages: i252--i259
+    number: Suppl. 1
+  note_fr: ''
+- year: 2023
+  authors:
+  - Timothé Rouzé
+  - Igor Martayan
+  - Camille Marchet
+  - Antoine Limasset
+  title: Fractional Hitting Sets for Efficient and Lightweight Genomic Data Sketching
+  venue: 23rd International Workshop on Algorithms in Bioinformatics (WABI 2023), LIPIcs 273, 15:1–15:27. Schloss
+    Dagstuhl – Leibniz-Zentrum für Informatik
+  note: ''
+  links:
+  - label: DOI
+    url: https://doi.org/10.4230/LIPIcs.WABI.2023.15
+  category: main
+  bibtex:
+    type: inproceedings
+    key: rouze202318
+    author: Rouzé, Timothé and Martayan, Igor and Marchet, Camille and Limasset, Antoine
+    year: 2023
+    doi: 10.4230/LIPIcs.WABI.2023.15
+    url: https://doi.org/10.4230/LIPIcs.WABI.2023.15
+    booktitle: 23rd International Workshop on Algorithms in Bioinformatics (WABI 2023)
+    series: Leibniz International Proceedings in Informatics (LIPIcs)
+    volume: '273'
+    pages: 15:1--15:27
+    publisher: Schloss Dagstuhl – Leibniz-Zentrum für Informatik
+  note_fr: ''
+- year: 2022
+  authors:
+  - Clément Agret
+  - Bastien Cazaux
+  - Antoine Limasset
+  title: Toward Optimal Fingerprint Indexing for Large Scale Genomics
+  venue: 22nd International Workshop on Algorithms in Bioinformatics (WABI 2022), LIPIcs 242, 25:1–25:15. Schloss
+    Dagstuhl – Leibniz-Zentrum für Informatik
+  note: ''
+  links:
+  - label: DOI
+    url: https://doi.org/10.4230/LIPIcs.WABI.2022.25
+  category: main
+  bibtex:
+    type: inproceedings
+    key: agret202219
+    author: Agret, Clément and Cazaux, Bastien and Limasset, Antoine
+    year: 2022
+    doi: 10.4230/LIPIcs.WABI.2022.25
+    url: https://doi.org/10.4230/LIPIcs.WABI.2022.25
+    booktitle: 22nd International Workshop on Algorithms in Bioinformatics (WABI 2022)
+    series: Leibniz International Proceedings in Informatics (LIPIcs)
+    volume: '242'
+    pages: 25:1--25:15
+    publisher: Schloss Dagstuhl – Leibniz-Zentrum für Informatik
+  note_fr: ''
+- year: 2022
+  authors:
+  - Fernando Meyer
+  - Adrian Fritz
+  - Zhi-Luo Deng
+  - David Koslicki
+  - Till Robin Lesker
+  - Alexey Gurevich
+  - Gary Robertson
+  - Mohammed Alser
+  - Dmitry Antipov
+  - Francesco Beghini
+  - Denis Bertrand
+  - Jaqueline J. Brito
+  - C. Titus Brown
+  - Jan Buchmann
+  - Aydin Buluç
+  - Bo Chen
+  - Rayan Chikhi
+  - Philip T. L. C. Clausen
+  - Alexandru Cristian
+  - Piotr Wojciech Dabrowski
+  - Aaron E. Darling
+  - Rob Egan
+  - Eleazar Eskin
+  - Evangelos Georganas
+  - Eugene Goltsman
+  - Melissa A. Gray
+  - Lars Hestbjerg Hansen
+  - Steven Hofmeyr
+  - Pingqin Huang
+  - Luiz Irber
+  - Huijue Jia
+  - Tue Sparholt Jørgensen
+  - Silas D. Kieser
+  - Terje Klemetsen
+  - Axel Kola
+  - Mikhail Kolmogorov
+  - Anton Korobeynikov
+  - Jason Kwan
+  - Nathan LaPierre
+  - Claire Lemaitre
+  - Chenhao Li
+  - Antoine Limasset
+  - Fabio Malcher-Miranda
+  - Serghei Mangul
+  - Vanessa R. Marcelino
+  - Camille Marchet
+  - Pierre Marijon
+  - Dmitry Meleshko
+  - Daniel R. Mende
+  - Alessio Milanese
+  - Niranjan Nagarajan
+  - Jakob Nissen
+  - Sergey Nurk
+  - Leonid Oliker
+  - Lucas Paoli
+  - Pierre Peterlongo
+  - Vitor C. Piro
+  - Jacob S. Porter
+  - Simon Rasmussen
+  - Evan R. Rees
+  - Knut Reinert
+  - Bernhard Renard
+  - Espen Mikal Robertsen
+  - Gail L. Rosen
+  - Hans-Joachim Ruscheweyh
+  - Varuni Sarwal
+  - Nicola Segata
+  - Enrico Seiler
+  - Lizhen Shi
+  - Fengzhu Sun
+  - Shinichi Sunagawa
+  - Søren Johannes Sørensen
+  - Ashleigh Thomas
+  - Chengxuan Tong
+  - Mirko Trajkovski
+  - Julien Tremblay
+  - Gherman Uritskiy
+  - Riccardo Vicedomini
+  - Zhengyang Wang
+  - Ziye Wang
+  - Zhong Wang
+  - Andrew Warren
+  - Nils Peder Willassen
+  - Katherine Yelick
+  - Ronghui You
+  - Georg Zeller
+  - Zhengqiao Zhao
+  - Shanfeng Zhu
+  - Jie Zhu
+  - Ruben Garrido-Oter
+  - Petra Gastmeier
+  - Stephane Hacquard
+  - Susanne Häußler
+  - Ariane Khaledi
+  - Friederike Maechler
+  - Fantin Mesny
+  - Simona Radutoiu
+  - Paul Schulze-Lefert
+  - Nathiana Smit
+  - Till Strowig
+  - Andreas Bremges
+  - Alexander Sczyrba
+  - Alice Carolyn McHardy
+  title: 'Critical Assessment of Metagenome Interpretation: the second round of challenges'
+  venue: Nature Methods, 19 (4), 429–440
+  note: ''
+  links:
+  - label: DOI
+    url: https://doi.org/10.1038/s41592-022-01431-4
+  category: collaboration
+  bibtex:
+    type: article
+    key: meyer202220
+    author: Meyer, Fernando and Fritz, Adrian and Deng, Zhi-Luo and Koslicki, David and Lesker, Till Robin and Gurevich,
+      Alexey and Robertson, Gary and Alser, Mohammed and Antipov, Dmitry and Beghini, Francesco and Bertrand, Denis
+      and Brito, Jaqueline J. and Brown, C. Titus and Buchmann, Jan and Buluç, Aydin and Chen, Bo and Chikhi, Rayan
+      and Clausen, Philip T. L. C. and Cristian, Alexandru and Dabrowski, Piotr Wojciech and Darling, Aaron E. and
+      Egan, Rob and Eskin, Eleazar and Georganas, Evangelos and Goltsman, Eugene and Gray, Melissa A. and Hansen,
+      Lars Hestbjerg and Hofmeyr, Steven and Huang, Pingqin and Irber, Luiz and Jia, Huijue and Jørgensen, Tue Sparholt
+      and Kieser, Silas D. and Klemetsen, Terje and Kola, Axel and Kolmogorov, Mikhail and Korobeynikov, Anton and
+      Kwan, Jason and LaPierre, Nathan and Lemaitre, Claire and Li, Chenhao and Limasset, Antoine and Malcher-Miranda,
+      Fabio and Mangul, Serghei and Marcelino, Vanessa R. and Marchet, Camille and Marijon, Pierre and Meleshko,
+      Dmitry and Mende, Daniel R. and Milanese, Alessio and Nagarajan, Niranjan and Nissen, Jakob and Nurk, Sergey
+      and Oliker, Leonid and Paoli, Lucas and Peterlongo, Pierre and Piro, Vitor C. and Porter, Jacob S. and Rasmussen,
+      Simon and Rees, Evan R. and Reinert, Knut and Renard, Bernhard and Robertsen, Espen Mikal and Rosen, Gail
+      L. and Ruscheweyh, Hans-Joachim and Sarwal, Varuni and Segata, Nicola and Seiler, Enrico and Shi, Lizhen and
+      Sun, Fengzhu and Sunagawa, Shinichi and Sørensen, Søren Johannes and Thomas, Ashleigh and Tong, Chengxuan
+      and Trajkovski, Mirko and Tremblay, Julien and Uritskiy, Gherman and Vicedomini, Riccardo and Wang, Zhengyang
+      and Wang, Ziye and Wang, Zhong and Warren, Andrew and Willassen, Nils Peder and Yelick, Katherine and You,
+      Ronghui and Zeller, Georg and Zhao, Zhengqiao and Zhu, Shanfeng and Zhu, Jie and Garrido-Oter, Ruben and Gastmeier,
+      Petra and Hacquard, Stephane and Häußler, Susanne and Khaledi, Ariane and Maechler, Friederike and Mesny,
+      Fantin and Radutoiu, Simona and Schulze-Lefert, Paul and Smit, Nathiana and Strowig, Till and Bremges, Andreas
+      and Sczyrba, Alexander and McHardy, Alice Carolyn
+    year: 2022
+    doi: 10.1038/s41592-022-01431-4
+    url: https://doi.org/10.1038/s41592-022-01431-4
+    journal: Nature Methods
+    volume: '19'
+    pages: 429--440
+    number: '4'
+  note_fr: ''
+- year: 2021
+  authors:
+  - Paul Simion
+  - Jitendra Narayan
+  - Antoine Houtain
+  - Alessandro Derzelle
+  - Lyam Baudry
+  - Emilien Nicolas
+  - Rohan Arora
+  - Marie Cariou
+  - Corinne Cruaud
+  - Florence Rodriguez Gaudray
+  - Clément Gilbert
+  - Nadège Guiglielmoni
+  - Boris Hespeels
+  - Djampa K. L. Kozlowski
+  - Karine Labadie
+  - Antoine Limasset
+  - Marc Llirós
+  - Martial Marbouty
+  - Matthieu Terwagne
+  - Julie Virgo
+  - Richard Cordaux
+  - Etienne G. J. Danchin
+  - Bernard Hallet
+  - Romain Koszul
+  - Thomas Lenormand
+  - Jean-Francois Flot
+  - Karine Van Doninck
+  title: Chromosome-level genome assembly reveals homologous chromosomes and recombination in asexual rotifer Adineta
+    vaga
+  venue: Science Advances, 7 (41), eabg4216
+  note: ''
+  links:
+  - label: DOI
+    url: https://doi.org/10.1126/sciadv.abg4216
+  category: collaboration
+  bibtex:
+    type: article
+    key: simion202121
+    author: Simion, Paul and Narayan, Jitendra and Houtain, Antoine and Derzelle, Alessandro and Baudry, Lyam and
+      Nicolas, Emilien and Arora, Rohan and Cariou, Marie and Cruaud, Corinne and Gaudray, Florence Rodriguez and
+      Gilbert, Clément and Guiglielmoni, Nadège and Hespeels, Boris and Kozlowski, Djampa K. L. and Labadie, Karine
+      and Limasset, Antoine and Llirós, Marc and Marbouty, Martial and Terwagne, Matthieu and Virgo, Julie and Cordaux,
+      Richard and Danchin, Etienne G. J. and Hallet, Bernard and Koszul, Romain and Lenormand, Thomas and Flot,
+      Jean-Francois and Van Doninck, Karine
+    year: 2021
+    doi: 10.1126/sciadv.abg4216
+    url: https://doi.org/10.1126/sciadv.abg4216
+    journal: Science Advances
+    volume: '7'
+    number: '41'
+    eid: eabg4216
+  note_fr: ''
+- year: 2021
+  authors:
+  - Christopher Quince
+  - Sergey Nurk
+  - Sebastien Raguideau
+  - Robert James
+  - Orkun S. Soyer
+  - J. Kimberly Summers
+  - Antoine Limasset
+  - A. Murat Eren
+  - Rayan Chikhi
+  - Aaron E. Darling
+  title: 'STRONG: metagenomics strain resolution on assembly graphs'
+  venue: Genome Biology, 22 (1), 214
+  note: ''
+  links:
+  - label: DOI
+    url: https://doi.org/10.1186/s13059-021-02419-7
+  category: collaboration
+  bibtex:
+    type: article
+    key: quince202122
+    author: Quince, Christopher and Nurk, Sergey and Raguideau, Sebastien and James, Robert and Soyer, Orkun S.
+      and Summers, J. Kimberly and Limasset, Antoine and Eren, A. Murat and Chikhi, Rayan and Darling, Aaron E.
+    year: 2021
+    doi: 10.1186/s13059-021-02419-7
+    url: https://doi.org/10.1186/s13059-021-02419-7
+    journal: Genome Biology
+    volume: '22'
+    number: '1'
+    eid: '214'
+  note_fr: ''
+- year: 2021
+  authors:
+  - Camille Marchet
+  - Mael Kerbiriou
+  - Antoine Limasset
+  title: 'BLight: efficient exact associative structure for k-mers'
+  venue: Bioinformatics, 37 (18), 2858–2865
+  note: ''
+  links:
+  - label: DOI
+    url: https://doi.org/10.1093/bioinformatics/btab217
+  category: main
+  bibtex:
+    type: article
+    key: marchet202123
+    author: Marchet, Camille and Kerbiriou, Mael and Limasset, Antoine
+    year: 2021
+    doi: 10.1093/bioinformatics/btab217
+    url: https://doi.org/10.1093/bioinformatics/btab217
+    journal: Bioinformatics
+    volume: '37'
+    pages: 2858--2865
+    number: '18'
+  note_fr: ''
+- year: 2021
+  authors:
+  - Pierre Morisse
+  - Camille Marchet
+  - Antoine Limasset
+  - Thierry Lecroq
+  - Arnaud Lefebvre
+  title: Scalable long read self-correction and assembly polishing with multiple sequence alignment
+  venue: Scientific Reports, 11 (1), 761
+  note: ''
+  links:
+  - label: DOI
+    url: https://doi.org/10.1038/s41598-020-80757-5
+  category: main
+  bibtex:
+    type: article
+    key: morisse202124
+    author: Morisse, Pierre and Marchet, Camille and Limasset, Antoine and Lecroq, Thierry and Lefebvre, Arnaud
+    year: 2021
+    doi: 10.1038/s41598-020-80757-5
+    url: https://doi.org/10.1038/s41598-020-80757-5
+    journal: Scientific Reports
+    volume: '11'
+    number: '1'
+    eid: '761'
+  note_fr: ''
+- year: 2020
+  authors:
+  - Antoine Limasset
+  - Jean-François Flot
+  - Pierre Peterlongo
+  title: 'Toward perfect reads: self-correction of short reads via mapping on de Bruijn graphs'
+  venue: Bioinformatics, 36 (5), 1374–1381
+  note: ''
+  links:
+  - label: DOI
+    url: https://doi.org/10.1093/bioinformatics/btz102
+  - label: Corrigendum
+    url: https://doi.org/10.1093/bioinformatics/btz548
+  category: main
+  bibtex:
+    type: article
+    key: limasset202025
+    author: Limasset, Antoine and Flot, Jean-François and Peterlongo, Pierre
+    year: 2020
+    doi: 10.1093/bioinformatics/btz102
+    url: https://doi.org/10.1093/bioinformatics/btz102
+    journal: Bioinformatics
+    volume: '36'
+    pages: 1374--1381
+    number: '5'
+  note_fr: ''
+- year: 2020
+  authors:
+  - Camille Marchet
+  - Pierre Morisse
+  - Lolita Lecompte
+  - Arnaud Lefebvre
+  - Thierry Lecroq
+  - Pierre Peterlongo
+  - Antoine Limasset
+  title: 'ELECTOR: evaluator for long reads correction methods'
+  venue: NAR Genomics and Bioinformatics, 2 (1), lqz015
+  note: ''
+  links:
+  - label: DOI
+    url: https://doi.org/10.1093/nargab/lqz015
+  category: main
+  bibtex:
+    type: article
+    key: marchet202026
+    author: Marchet, Camille and Morisse, Pierre and Lecompte, Lolita and Lefebvre, Arnaud and Lecroq, Thierry and
+      Peterlongo, Pierre and Limasset, Antoine
+    year: 2020
+    doi: 10.1093/nargab/lqz015
+    url: https://doi.org/10.1093/nargab/lqz015
+    journal: NAR Genomics and Bioinformatics
+    volume: '2'
+    number: '1'
+    eid: lqz015
+  note_fr: ''
+- year: 2020
+  authors:
+  - Camille Marchet
+  - Lolita Lecompte
+  - Antoine Limasset
+  - Lucie Bittner
+  - Pierre Peterlongo
+  title: A resource-frugal probabilistic dictionary and applications in bioinformatics
+  venue: Discrete Applied Mathematics, 274, 92–102
+  note: ''
+  links:
+  - label: DOI
+    url: https://doi.org/10.1016/j.dam.2018.03.035
+  category: main
+  bibtex:
+    type: article
+    key: marchet202027
+    author: Marchet, Camille and Lecompte, Lolita and Limasset, Antoine and Bittner, Lucie and Peterlongo, Pierre
+    year: 2020
+    doi: 10.1016/j.dam.2018.03.035
+    url: https://doi.org/10.1016/j.dam.2018.03.035
+    journal: Discrete Applied Mathematics
+    volume: '274'
+    pages: 92--102
+  note_fr: ''
+- year: 2019
+  authors:
+  - Camille Marchet
+  - Yoann Dufresne
+  - Antoine Limasset
+  title: Read correction for non-uniform coverages
+  venue: bioRxiv, preprint
+  note: ''
+  links:
+  - label: DOI
+    url: https://doi.org/10.1101/673624
+  category: main
+  bibtex:
+    type: misc
+    key: marchet201928
+    author: Marchet, Camille and Dufresne, Yoann and Limasset, Antoine
+    year: 2019
+    doi: 10.1101/673624
+    url: https://doi.org/10.1101/673624
+    howpublished: bioRxiv preprint
+  note_fr: ''
+- year: 2017
+  authors:
+  - Antoine Limasset
+  - Guillaume Rizk
+  - Rayan Chikhi
+  - Pierre Peterlongo
+  title: Fast and Scalable Minimal Perfect Hashing for Massive Key Sets
+  venue: 16th International Symposium on Experimental Algorithms (SEA 2017), LIPIcs 75, 25:1–25:16. Schloss Dagstuhl
+    – Leibniz-Zentrum für Informatik
+  note: ''
+  links:
+  - label: DOI
+    url: https://doi.org/10.4230/LIPIcs.SEA.2017.25
+  category: main
+  bibtex:
+    type: inproceedings
+    key: limasset201729
+    author: Limasset, Antoine and Rizk, Guillaume and Chikhi, Rayan and Peterlongo, Pierre
+    year: 2017
+    doi: 10.4230/LIPIcs.SEA.2017.25
+    url: https://doi.org/10.4230/LIPIcs.SEA.2017.25
+    booktitle: 16th International Symposium on Experimental Algorithms (SEA 2017)
+    series: Leibniz International Proceedings in Informatics (LIPIcs)
+    volume: '75'
+    pages: 25:1--25:16
+    publisher: Schloss Dagstuhl – Leibniz-Zentrum für Informatik
+  note_fr: ''
+- year: 2016
+  authors:
+  - Rayan Chikhi
+  - Antoine Limasset
+  - Paul Medvedev
+  title: Compacting de Bruijn graphs from sequencing data quickly and in low memory
+  venue: Bioinformatics, 32 (12), i201–i208
+  note: ''
+  links:
+  - label: DOI
+    url: https://doi.org/10.1093/bioinformatics/btw279
+  category: main
+  bibtex:
+    type: article
+    key: chikhi201630
+    author: Chikhi, Rayan and Limasset, Antoine and Medvedev, Paul
+    year: 2016
+    doi: 10.1093/bioinformatics/btw279
+    url: https://doi.org/10.1093/bioinformatics/btw279
+    journal: Bioinformatics
+    volume: '32'
+    pages: i201--i208
+    number: '12'
+  note_fr: ''
+- year: 2016
+  authors:
+  - Antoine Limasset
+  - Bastien Cazaux
+  - Eric Rivals
+  - Pierre Peterlongo
+  title: Read mapping on de Bruijn graphs
+  venue: BMC Bioinformatics, 17 (1), 237
+  note: ''
+  links:
+  - label: DOI
+    url: https://doi.org/10.1186/s12859-016-1103-9
+  category: main
+  bibtex:
+    type: article
+    key: limasset201631
+    author: Limasset, Antoine and Cazaux, Bastien and Rivals, Eric and Peterlongo, Pierre
+    year: 2016
+    doi: 10.1186/s12859-016-1103-9
+    url: https://doi.org/10.1186/s12859-016-1103-9
+    journal: BMC Bioinformatics
+    volume: '17'
+    number: '1'
+    eid: '237'
+  note_fr: ''
+- year: 2016
+  authors:
+  - Camille Marchet
+  - Antoine Limasset
+  - Lucie Bittner
+  - Pierre Peterlongo
+  title: A Resource-frugal Probabilistic Dictionary and Applications in (Meta)Genomics
+  venue: Proceedings of the Prague Stringology Conference 2016, 85–98. Jan Holub and Jan Žďárek (eds.), Czech Technical
+    University in Prague
+  note: ''
+  links:
+  - label: Proceedings, pp. 85–98
+    url: https://psc.fit.cvut.cz/papers/PSC2016.pdf#page=95
+  category: main
+  bibtex:
+    type: inproceedings
+    key: marchet201632
+    author: Marchet, Camille and Limasset, Antoine and Bittner, Lucie and Peterlongo, Pierre
+    year: 2016
+    url: https://psc.fit.cvut.cz/papers/PSC2016.pdf#page=95
+    booktitle: Proceedings of the Prague Stringology Conference 2016
+    pages: 85--98
+    publisher: Czech Technical University in Prague
+    editor: Holub, Jan and Žďárek, Jan
+  note_fr: ''
+- year: 2015
+  authors:
+  - Rayan Chikhi
+  - Antoine Limasset
+  - Shaun Jackman
+  - Jared T. Simpson
+  - Paul Medvedev
+  title: On the Representation of De Bruijn Graphs
+  venue: Journal of Computational Biology, 22 (5), 336–352
+  note: ''
+  links:
+  - label: DOI
+    url: https://doi.org/10.1089/cmb.2014.0160
+  category: main
+  bibtex:
+    type: article
+    key: chikhi201533
+    author: Chikhi, Rayan and Limasset, Antoine and Jackman, Shaun and Simpson, Jared T. and Medvedev, Paul
+    year: 2015
+    doi: 10.1089/cmb.2014.0160
+    url: https://doi.org/10.1089/cmb.2014.0160
+    journal: Journal of Computational Biology
+    volume: '22'
+    pages: 336--352
+    number: '5'
+  note_fr: ''
+- year: 2014
+  authors:
+  - Rayan Chikhi
+  - Antoine Limasset
+  - Shaun Jackman
+  - Jared T. Simpson
+  - Paul Medvedev
+  title: On the Representation of de Bruijn Graphs
+  venue: Research in Computational Molecular Biology (RECOMB 2014), Lecture Notes in Computer Science 8394, 35–55.
+    Springer
+  note: ''
+  links:
+  - label: DOI
+    url: https://doi.org/10.1007/978-3-319-05269-4_4
+  category: main
+  bibtex:
+    type: inproceedings
+    key: chikhi201434
+    author: Chikhi, Rayan and Limasset, Antoine and Jackman, Shaun and Simpson, Jared T. and Medvedev, Paul
+    year: 2014
+    doi: 10.1007/978-3-319-05269-4_4
+    url: https://doi.org/10.1007/978-3-319-05269-4_4
+    booktitle: Research in Computational Molecular Biology
+    pages: 35--55
+    publisher: Springer Nature
+    series: Lecture Notes in Computer Science
+    volume: '8394'
+  note_fr: ''

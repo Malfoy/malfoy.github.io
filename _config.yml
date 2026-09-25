@@ -1,6 +1,25 @@
 theme: jekyll-theme-minimal
 title: Antoine Limasset (Malfoy)
 description:  CNRS, CRIStAL, Université de Lille
-logo: Pp.jpg
+logo: /assets/images/antoine-limasset.png
+lang: en
 markdown: kramdown
-show_downloads: true
+show_downloads: false
+url: https://malfoy.github.io
+baseurl: ""
+author:
+  name: Antoine Limasset
+  url: https://malfoy.github.io
+social:
+  name: Antoine Limasset
+  links:
+    - https://orcid.org/0000-0002-0669-4141
+    - https://scholar.google.com/citations?user=EW4USK4AAAAJ
+    - https://github.com/Malfoy
+    - https://bsky.app/profile/npmalfoy.bsky.social
+exclude:
+  - cv.tex
+  - cv-public.tex
+  - references_publications_mail.html
+  - references_publications_mail.txt
+  - Screenshot_2026-09-23-13-58-38-456_com.google.android.apps.photos.jpg
