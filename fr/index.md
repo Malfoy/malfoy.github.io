@@ -13,8 +13,6 @@ translation_url: /
 Chargé de recherche CNRS · CRIStAL · Université de Lille<br>
 Équipe Bonsai — Algorithmes et structures de données pour l’analyse de séquences
 
-[Courriel](mailto:antoine.limasset@univ-lille.fr) · [ORCID](https://orcid.org/0000-0002-0669-4141) · [Google Scholar](https://scholar.google.com/citations?user=EW4USK4AAAAJ) · [GitHub](https://github.com/Malfoy) · [Bluesky @npmalfoy.bsky.social](https://bsky.app/profile/npmalfoy.bsky.social)
-
 [Publications](#publications) · [Logiciels](#logiciels) · [Équipe](#equipe) · [Financements](#financements) · [Enseignement](#enseignement) · [Contact](#contact)
 
 ## Présentation
@@ -27,7 +25,7 @@ J’ai obtenu mon habilitation à diriger des recherches (HDR) à l’Universit�
 
 ## Publications
 
-[Bibliographie complète avec tous les auteurs et les liens]({{ '/fr/publications/' | relative_url }}) · [Google Scholar](https://scholar.google.com/citations?user=EW4USK4AAAAJ)
+[Rechercher dans la bibliographie · citations et BibTeX]({{ '/fr/publications/' | relative_url }}) · [Google Scholar](https://scholar.google.com/citations?user=EW4USK4AAAAJ)
 
 <a href="{{ '/publications.bib' | relative_url }}" download>Télécharger toutes les références (BibTeX)</a>
 
@@ -39,33 +37,12 @@ J’ai obtenu mon habilitation à diriger des recherches (HDR) à l’Universit�
 
 ## Logiciels
 
-Logiciels libres développés avec mes collaborateurs. Chaque lien mène au dépôt du projet.
-
-{% for tool in site.data.software %}
-- **[{{ tool.name }}]({{ tool.url }})** : {{ tool.description_fr }}
-{% endfor %}
-
-**BRRR** : Correction de lectures longues à partir du spectre des k-mers.
+{% include software.html %}
 
 ## Équipe et encadrement
 {: #equipe}
 
-### Doctorants actuels
-
-- **Étienne Conchon-Kerjan** — Directeur de thèse, depuis 2026.
-- **Yohan Hernandez-Courbevoie** — Directeur de thèse, depuis 2024. Indexation de bases de données transcriptomiques globales.
-- **Timothé Rouzé** — Co-encadrant de thèse, depuis 2023. Compression de grandes collections de données de séquençage.
-
-### Ingénieurs et postdoctorants
-
-- **Lucas Robidou** — Ingénieur de recherche, encadrant, depuis 2026. Analyse de séquences génomiques à grande échelle.
-- **Florian Ingels** — Postdoctorant, encadrant, 2025–2026. Schémas de minimiseurs.
-
-### Anciens doctorants et collaborateurs
-
-- **Léa Vandamme** — Directeur de thèse, 2022–2025. Indexation de données de séquençage de troisième génération.
-- **Caleb Smith** — Ingénieur, encadrant, 2023–2024. Compression de grandes collections de données de séquençage.
-- **Coralie Rohmer** — Co-encadrant de thèse, 2019–2023. Algorithmes d’alignement multiple adaptés au séquençage de troisième génération.
+{% include team.html %}
 
 ## Formation
 
@@ -81,13 +58,7 @@ Logiciels libres développés avec mes collaborateurs. Chaque lien mène au dép
 
 ## Financements
 
-- **2026 — ANR PRC GRANDSMERS**, responsable scientifique, environ 585 k€. *Graph-based Research on Accurate Nucleotide Data via Scalable, Multi-scale, and Efficient RepresentationS*.
-- **2026 — ANR PRC PRO-K-MER**, membre. *PRObabilistic K-MERs for environmental sequence analysis*.
-- **2024 — MIC INSERM**, responsable scientifique, 554 k€. *Analyse efficace et évolutive du cancer par exploration transcriptomique avancée à grande échelle*.
-- **2024 — ANR Shannon x Cray**, membre, 500 k€.
-- **2021 — ANR JCJC**, responsable scientifique, 227 k€. *Adequate graph structures for third-generation sequencing data exploration*.
-- **2019 — Financement doctoral de la Région Hauts-de-France**, responsable scientifique, 150 k€.
-- **[CDP PIE — Protein-Interaction-Evolution](https://initiative-excellence.univ-lille.fr/nos-projets-structurants/mener-une-recherche-dexcellence/cross-disciplinary-projects/cdp-pie)** — Initiative d’Excellence de l’Université de Lille. Financement total du projet de 1,5 M€ sur quatre ans, renouvelable.
+{% include grants.html %}
 
 ## Enseignement
 
@@ -119,18 +90,7 @@ Nature Communications, Nature Methods, Genome Research, Genome Biology, Nucleic 
 
 ## Conférences et présentations
 
-- **2026** — Conférence invitée, JC2B — Junior Conference on Computational Biology, Gif-sur-Yvette, France.
-- **2026** — RECOMB et RECOMB-Seq, Thessalonique, Grèce.
-- **2024** — EMBL-EBI K-mer/sequence indexing workshop, Cambridge, Royaume-Uni.
-- **2024** — Kmer days, Dijon, France.
-- **2023** — ISMB, Lyon, France.
-- **2022** — RECOMB, San Diego, États-Unis.
-- **2022** — DSB, Düsseldorf, Allemagne.
-- **2022** — TUDASTIC, Lille, France.
-- **2022** — Réunion de lancement de Genopim, Rennes, France.
-- **2021** — Kmer days, Marville, France.
-- **2019** — Biata, Saint-Pétersbourg, Russie.
-- **2018** — RECOMB, Paris, France.
+{% include talks.html %}
 
 ## Contact
 

@@ -1,0 +1,4 @@
+{% assign lang = page.lang | default: 'en' %}
+{% for talk in site.data.profile.talks %}
+- **{{ talk.year }}** — {{ talk.event[lang] }}, {{ talk.location[lang] }}.
+{% endfor %}

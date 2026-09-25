@@ -3,8 +3,5 @@ layout: null
 permalink: /publications.bib
 ---
 {% for paper in site.data.publications %}
-@{{ paper.bibtex.type }}{ {{ paper.bibtex.key }},
-  title = { { {{ paper.title }} } },
-{% for field in paper.bibtex %}{% unless field[0] == 'type' or field[0] == 'key' %}  {{ field[0] }} = { {{ field[1] }} },
-{% endunless %}{% endfor %}}
+{% include bibtex-entry.txt paper=paper %}
 {% endfor %}

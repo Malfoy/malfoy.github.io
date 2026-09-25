@@ -1,0 +1,8 @@
+{% assign lang = page.lang | default: 'en' %}
+{% for group in site.data.profile.team %}
+### {{ group.title[lang] }}
+
+{% for person in group.people %}
+- **{{ person.name }}** — {{ person.role[lang] }}, {% if person.end %}{{ person.start }}–{{ person.end }}{% elsif lang == 'fr' %}depuis {{ person.start }}{% else %}{{ person.start }}–present{% endif %}. {{ person.topic[lang] }}
+{% endfor %}
+{% endfor %}

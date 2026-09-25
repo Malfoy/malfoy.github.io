@@ -1,0 +1,27 @@
+{% assign lang = page.lang | default: 'en' %}
+{% assign labels = site.data.ui[lang] %}
+{% for group in site.data.software_groups %}
+<div class="software-group">
+  <h3>{{ group.title[lang] }}</h3>
+  <ul class="software-list">
+    {% assign group_tools = site.data.software | where: 'group', group.id %}
+    {% for tool in group_tools %}
+    <li>
+      <h4>{% if tool.url %}<a href="{{ tool.url }}">{{ tool.name }}</a>{% else %}{{ tool.name }}{% endif %}</h4>
+      <p>{% if lang == 'fr' %}{{ tool.description_fr }}{% else %}{{ tool.description }}{% endif %}</p>
+      {% if tool.url or tool.paper %}
+      <div class="resource-links">
+        {% if tool.url %}<a href="{{ tool.url }}" aria-label="{{ labels.code }} — {{ tool.name }}">{{ labels.code }}</a>{% endif %}
+        {% if tool.readme_url %}<a href="{{ tool.readme_url }}" aria-label="{{ labels.readme }} — {{ tool.name }}">{{ labels.readme }}</a>{% endif %}
+        {% if tool.paper %}
+          {% for paper in site.data.publications %}{% if paper.bibtex.key == tool.paper %}
+          <a href="{{ paper.links.first.url }}" aria-label="{{ labels.paper }} — {{ tool.name }}">{{ labels.paper }}</a>
+          {% endif %}{% endfor %}
+        {% endif %}
+      </div>
+      {% endif %}
+    </li>
+    {% endfor %}
+  </ul>
+</div>
+{% endfor %}

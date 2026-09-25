@@ -1,25 +1,70 @@
-{% assign years = site.data.publications | group_by: "year" %}
-{% for year in years %}
-## {{ year.name }}
-
-{% for paper in year.items %}
-### {{ paper.title }}
-
-{% assign author_count = paper.authors | size %}
-{% if author_count > 10 %}
-<details>
-<summary>{% if page.lang == 'fr' %}Les {{ author_count }} auteurs{% else %}All {{ author_count }} authors{% endif %}</summary>
-<p>{{ paper.authors | join: "; " | escape }}</p>
-</details>
-{% else %}
-{{ paper.authors | join: "; " }}.
-{% endif %}
-
-*{% if page.lang == 'fr' %}{{ paper.venue | replace: 'preprint', 'prépublication' }}{% else %}{{ paper.venue }}{% endif %}* ({{ paper.year }}).
-
-{% if page.lang == 'fr' %}{{ paper.note_fr }}{% else %}{{ paper.note }}{% endif %}
-
-{% for link in paper.links %}[{% if page.lang == 'fr' %}{{ link.label | replace: 'Preprint', 'Prépublication' | replace: 'Proceedings, pp.', 'Actes, p.' }}{% else %}{{ link.label }}{% endif %}]({{ link.url }}){% unless forloop.last %} · {% endunless %}{% endfor %}
-
-{% endfor %}
-{% endfor %}
+{% assign lang = page.lang | default: 'en' %}
+{% assign labels = site.data.ui[lang] %}
+{% assign years = site.data.publications | group_by: 'year' %}
+<div class="publication-browser" data-publication-browser data-result-template="{{ labels.results }}" data-copied="{{ labels.copied }}" data-copy-failed="{{ labels.copy_failed }}">
+  <form class="publication-filters" role="search" aria-label="{{ labels.search }}" hidden>
+    <div class="search-field">
+      <label for="publication-query">{{ labels.search }}</label>
+      <input id="publication-query" type="search" placeholder="{{ labels.search_hint }}" autocomplete="off" aria-controls="publication-results">
+    </div>
+    <div>
+      <label for="publication-year">{{ labels.year }}</label>
+      <select id="publication-year" aria-controls="publication-results">
+        <option value="">{{ labels.all_years }}</option>
+        {% for year in years %}<option value="{{ year.name }}">{{ year.name }}</option>{% endfor %}
+      </select>
+    </div>
+    <div>
+      <label for="publication-type">{{ labels.type }}</label>
+      <select id="publication-type" aria-controls="publication-results">
+        <option value="">{{ labels.all_types }}</option>
+        <option value="article">{{ labels.article }}</option>
+        <option value="inproceedings">{{ labels.inproceedings }}</option>
+        <option value="misc">{{ labels.misc }}</option>
+      </select>
+    </div>
+    <button type="reset">{{ labels.reset }}</button>
+    <p class="result-count" role="status" aria-live="polite" aria-atomic="true"></p>
+  </form>
+  <noscript><p>{{ labels.no_js }}</p></noscript>
+  <p class="empty-results" hidden>{{ labels.empty }}</p>
+  <div id="publication-results">
+    {% for year in years %}
+    <div class="publication-year">
+      <h2>{{ year.name }}</h2>
+      {% for paper in year.items %}
+      {% assign key = paper.bibtex.key %}
+      {% assign author_count = paper.authors | size %}
+      {% capture citation %}{% include citation.txt paper=paper %}{% endcapture %}
+      {% capture bibtex %}{% include bibtex-entry.txt paper=paper %}{% endcapture %}
+      {% capture keywords %}{% for tool in site.data.software %}{% if tool.paper == key %}{{ tool.name }} {% endif %}{% endfor %}{% endcapture %}
+      <article class="publication" id="{{ key }}" data-year="{{ paper.year }}" data-type="{{ paper.bibtex.type }}" data-keywords="{{ keywords | strip | escape }}">
+        <h3><a href="{{ paper.links.first.url }}">{{ paper.title | escape }}</a></h3>
+        {% if author_count > 10 %}
+        <details class="authors"><summary>{% if lang == 'fr' %}Les {{ author_count }} auteurs{% else %}All {{ author_count }} authors{% endif %}</summary><p>{{ paper.authors | join: '; ' | escape }}</p></details>
+        {% else %}
+        <p class="authors">{{ paper.authors | join: '; ' | escape }}.</p>
+        {% endif %}
+        <p class="venue"><span class="reference-type">{{ labels[paper.bibtex.type] }}</span> {% if lang == 'fr' %}{{ paper.venue | replace: 'preprint', 'prépublication' | escape }}{% else %}{{ paper.venue | escape }}{% endif %} ({{ paper.year }}).</p>
+        {% if paper.note != '' %}<p class="publication-note">{% if lang == 'fr' %}{{ paper.note_fr | escape }}{% else %}{{ paper.note | escape }}{% endif %}</p>{% endif %}
+        <div class="publication-actions">
+          {% for link in paper.links %}<a href="{{ link.url }}">{% if lang == 'fr' %}{{ link.label | replace: 'Preprint', 'Prépublication' | replace: 'Proceedings, pp.', 'Actes, p.' }}{% else %}{{ link.label }}{% endif %}</a>{% endfor %}
+          <button type="button" data-copy="citation-{{ key }}" aria-label="{{ labels.citation }} — {{ paper.title | escape }}" hidden>{{ labels.citation }}</button>
+          <button type="button" data-copy="bibtex-{{ key }}" aria-label="{{ labels.bibtex }} — {{ paper.title | escape }}" hidden>{{ labels.bibtex }}</button>
+        </div>
+        <p id="citation-{{ key }}" hidden>{{ citation | strip | escape }}</p>
+        <details class="bibtex-entry">
+          <summary>{{ labels.show_bibtex }}</summary>
+          <pre tabindex="0" aria-label="BibTeX — {{ paper.title | escape }}"><code id="bibtex-{{ key }}">{{ bibtex | strip | escape }}</code></pre>
+        </details>
+        <p class="copy-status" role="status" aria-live="polite"></p>
+        <div class="manual-copy" hidden>
+          <label for="manual-{{ key }}">{{ labels.manual_copy }}</label>
+          <textarea id="manual-{{ key }}" readonly rows="6"></textarea>
+        </div>
+      </article>
+      {% endfor %}
+    </div>
+    {% endfor %}
+  </div>
+</div>

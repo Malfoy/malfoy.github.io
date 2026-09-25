@@ -12,8 +12,6 @@ translation_url: /fr/
 Chargé de recherche CNRS · CRIStAL · Université de Lille<br>
 Bonsai team — Algorithms and data structures for sequence analysis
 
-[Email](mailto:antoine.limasset@univ-lille.fr) · [ORCID](https://orcid.org/0000-0002-0669-4141) · [Google Scholar](https://scholar.google.com/citations?user=EW4USK4AAAAJ) · [GitHub](https://github.com/Malfoy) · [Bluesky @npmalfoy.bsky.social](https://bsky.app/profile/npmalfoy.bsky.social)
-
 [Publications](#publications) · [Software](#software) · [Team](#team--supervision) · [Funding](#grants--funding) · [Teaching](#teaching) · [Contact](#contact)
 
 ## About Me
@@ -26,7 +24,7 @@ I obtained my habilitation to direct research (HDR) at Université de Lille in S
 
 ## Publications
 
-[Full bibliography with all authors and publication links]({{ '/publications/' | relative_url }}) · [Google Scholar](https://scholar.google.com/citations?user=EW4USK4AAAAJ)
+[Search the full bibliography · citations and BibTeX]({{ '/publications/' | relative_url }}) · [Google Scholar](https://scholar.google.com/citations?user=EW4USK4AAAAJ)
 
 <a href="{{ '/publications.bib' | relative_url }}" download>Download all references (BibTeX)</a>
 
@@ -38,32 +36,11 @@ I obtained my habilitation to direct research (HDR) at Université de Lille in S
 
 ## Software
 
-Open-source tools developed with my collaborators. Each link leads to the project repository.
-
-{% for tool in site.data.software %}
-- **[{{ tool.name }}]({{ tool.url }})**: {{ tool.description }}
-{% endfor %}
-
-**BRRR**: A long-read correction tool based on the k-mer spectrum.
+{% include software.html %}
 
 ## Team & Supervision
 
-### Current PhD Students
-
-- **Étienne Conchon-Kerjan** — PhD director, 2026–present.
-- **Yohan Hernandez-Courbevoie** — PhD director, 2024–present. Indexing global transcriptomic databases.
-- **Timothé Rouzé** — PhD co-supervisor, 2023–present. Compression of large sequencing collections.
-
-### Research Staff
-
-- **Lucas Robidou** — Research engineer, supervisor, 2026–present. Scalable genomic sequence analysis.
-- **Florian Ingels** — Postdoctoral researcher, supervisor, 2025–2026. Minimizer schemes.
-
-### Former Students and Staff
-
-- **Léa Vandamme** — PhD director, 2022–2025. Indexing third-generation sequencing datasets.
-- **Caleb Smith** — Engineer, supervisor, 2023–2024. Compression of large sequencing collections.
-- **Coralie Rohmer** — PhD co-supervisor, 2019–2023. Multiple sequence alignment algorithms for third-generation sequencing.
+{% include team.html %}
 
 ## Education
 
@@ -79,13 +56,7 @@ Open-source tools developed with my collaborators. Each link leads to the projec
 
 ## Grants & Funding
 
-- **2026 — ANR PRC GRANDSMERS**, principal investigator, approximately €585k. *Graph-based Research on Accurate Nucleotide Data via Scalable, Multi-scale, and Efficient RepresentationS*.
-- **2026 — ANR PRC PRO-K-MER**, member. *PRObabilistic K-MERs for environmental sequence analysis*.
-- **2024 — MIC INSERM**, principal investigator, €554k. *Analyse efficace et évolutive du cancer par exploration transcriptomique avancée à grande échelle*.
-- **2024 — ANR Shannon x Cray**, member, €500k.
-- **2021 — ANR JCJC**, principal investigator, €227k. *Adequate graph structures for third-generation sequencing data exploration*.
-- **2019 — Hauts-de-France Region PhD Grant**, principal investigator, €150k.
-- **[CDP PIE — Protein-Interaction-Evolution](https://initiative-excellence.univ-lille.fr/nos-projets-structurants/mener-une-recherche-dexcellence/cross-disciplinary-projects/cdp-pie)** — Université de Lille Initiative d'Excellence. €1.5M total project funding over four years, renewable.
+{% include grants.html %}
 
 ## Teaching
 
@@ -117,18 +88,7 @@ Nature Communications, Nature Methods, Genome Research, Genome Biology, Nucleic 
 
 ## Talks & Presentations
 
-- **2026** — Invited keynote, JC2B — Junior Conference on Computational Biology, Gif-sur-Yvette, France.
-- **2026** — RECOMB and RECOMB-Seq, Thessaloniki, Greece.
-- **2024** — EMBL-EBI K-mer/sequence indexing workshop, Cambridge, UK.
-- **2024** — Kmer days, Dijon, France.
-- **2023** — ISMB, Lyon, France.
-- **2022** — RECOMB, San Diego, US.
-- **2022** — DSB, Düsseldorf, Germany.
-- **2022** — TUDASTIC, Lille, France.
-- **2022** — Genopim kickoff, Rennes, France.
-- **2021** — Kmer days, Marville, France.
-- **2019** — Biata, Saint Petersburg, Russia.
-- **2018** — RECOMB, Paris, France.
+{% include talks.html %}
 
 ## Contact
 

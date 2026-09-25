@@ -1,0 +1,16 @@
+- id: indexing
+  title:
+    en: Indexing, search & data structures
+    fr: Indexation, recherche et structures de données
+- id: compression
+  title:
+    en: Compression
+    fr: Compression
+- id: sketching
+  title:
+    en: Sketching & similarity
+    fr: Esquisses et similarité
+- id: correction
+  title:
+    en: Error correction, alignment & assembly
+    fr: Correction d’erreurs, alignement et assemblage

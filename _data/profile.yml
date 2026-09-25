@@ -1,0 +1,240 @@
+team:
+- title:
+    en: Current PhD Students
+    fr: Doctorants actuels
+  people:
+  - name: Étienne Conchon-Kerjan
+    start: 2026
+    end: null
+    role:
+      en: PhD director
+      fr: Directeur de thèse
+    topic:
+      en: ''
+      fr: ''
+  - name: Yohan Hernandez-Courbevoie
+    start: 2024
+    end: null
+    role:
+      en: PhD director
+      fr: Directeur de thèse
+    topic:
+      en: Indexing global transcriptomic databases.
+      fr: Indexation de bases de données transcriptomiques globales.
+  - name: Timothé Rouzé
+    start: 2023
+    end: null
+    role:
+      en: PhD co-supervisor
+      fr: Co-encadrant de thèse
+    topic:
+      en: Compression of large sequencing collections.
+      fr: Compression de grandes collections de données de séquençage.
+- title:
+    en: Research Staff
+    fr: Ingénieurs et postdoctorants
+  people:
+  - name: Lucas Robidou
+    start: 2026
+    end: null
+    role:
+      en: Research engineer, supervisor
+      fr: Ingénieur de recherche, encadrant
+    topic:
+      en: Scalable genomic sequence analysis.
+      fr: Analyse de séquences génomiques à grande échelle.
+  - name: Florian Ingels
+    start: 2025
+    end: 2026
+    role:
+      en: Postdoctoral researcher, supervisor
+      fr: Postdoctorant, encadrant
+    topic:
+      en: Minimizer schemes.
+      fr: Schémas de minimiseurs.
+- title:
+    en: Former Students and Staff
+    fr: Anciens doctorants et collaborateurs
+  people:
+  - name: Léa Vandamme
+    start: 2022
+    end: 2025
+    role:
+      en: PhD director
+      fr: Directeur de thèse
+    topic:
+      en: Indexing third-generation sequencing datasets.
+      fr: Indexation de données de séquençage de troisième génération.
+  - name: Caleb Smith
+    start: 2023
+    end: 2024
+    role:
+      en: Engineer, supervisor
+      fr: Ingénieur, encadrant
+    topic:
+      en: Compression of large sequencing collections.
+      fr: Compression de grandes collections de données de séquençage.
+  - name: Coralie Rohmer
+    start: 2019
+    end: 2023
+    role:
+      en: PhD co-supervisor
+      fr: Co-encadrant de thèse
+    topic:
+      en: Multiple sequence alignment algorithms for third-generation sequencing.
+      fr: Algorithmes d’alignement multiple adaptés au séquençage de troisième génération.
+grants:
+- year: 2026
+  name:
+    en: ANR PRC GRANDSMERS
+    fr: ANR PRC GRANDSMERS
+  role:
+    en: principal investigator
+    fr: responsable scientifique
+  amount_eur: 585000
+  description: Graph-based Research on Accurate Nucleotide Data via Scalable, Multi-scale, and Efficient RepresentationS
+  approximate: true
+- year: 2026
+  name:
+    en: ANR PRC PRO-K-MER
+    fr: ANR PRC PRO-K-MER
+  role:
+    en: member
+    fr: membre
+  amount_eur: null
+  description: PRObabilistic K-MERs for environmental sequence analysis
+- year: 2024
+  name:
+    en: MIC INSERM
+    fr: MIC INSERM
+  role:
+    en: principal investigator
+    fr: responsable scientifique
+  amount_eur: 554000
+  description: Analyse efficace et évolutive du cancer par exploration transcriptomique avancée à grande échelle
+- year: 2024
+  name:
+    en: ANR Shannon x Cray
+    fr: ANR Shannon x Cray
+  role:
+    en: member
+    fr: membre
+  amount_eur: 500000
+  description: ''
+- year: 2021
+  name:
+    en: ANR JCJC
+    fr: ANR JCJC
+  role:
+    en: principal investigator
+    fr: responsable scientifique
+  amount_eur: 227000
+  description: Adequate graph structures for third-generation sequencing data exploration
+- year: 2019
+  name:
+    en: Hauts-de-France Region PhD Grant
+    fr: Financement doctoral de la Région Hauts-de-France
+  role:
+    en: principal investigator
+    fr: responsable scientifique
+  amount_eur: 150000
+  description: ''
+- year: null
+  name:
+    en: CDP PIE — Protein-Interaction-Evolution
+    fr: CDP PIE — Protein-Interaction-Evolution
+  role: null
+  amount_eur: 1500000
+  description: ''
+  url: https://initiative-excellence.univ-lille.fr/nos-projets-structurants/mener-une-recherche-dexcellence/cross-disciplinary-projects/cdp-pie
+  institution:
+    en: Université de Lille Initiative d’Excellence
+    fr: Initiative d’Excellence de l’Université de Lille
+  scope: project
+  duration_years: 4
+  renewable: true
+talks:
+- year: 2026
+  event:
+    en: Invited keynote, JC2B — Junior Conference on Computational Biology
+    fr: Conférence invitée, JC2B — Junior Conference on Computational Biology
+  location:
+    en: Gif-sur-Yvette, France
+    fr: Gif-sur-Yvette, France
+- year: 2026
+  event:
+    en: RECOMB and RECOMB-Seq
+    fr: RECOMB et RECOMB-Seq
+  location:
+    en: Thessaloniki, Greece
+    fr: Thessalonique, Grèce
+- year: 2024
+  event:
+    en: EMBL-EBI K-mer/sequence indexing workshop
+    fr: EMBL-EBI K-mer/sequence indexing workshop
+  location:
+    en: Cambridge, UK
+    fr: Cambridge, Royaume-Uni
+- year: 2024
+  event:
+    en: Kmer days
+    fr: Kmer days
+  location:
+    en: Dijon, France
+    fr: Dijon, France
+- year: 2023
+  event:
+    en: ISMB
+    fr: ISMB
+  location:
+    en: Lyon, France
+    fr: Lyon, France
+- year: 2022
+  event:
+    en: RECOMB
+    fr: RECOMB
+  location:
+    en: San Diego, US
+    fr: San Diego, États-Unis
+- year: 2022
+  event:
+    en: DSB
+    fr: DSB
+  location:
+    en: Düsseldorf, Germany
+    fr: Düsseldorf, Allemagne
+- year: 2022
+  event:
+    en: TUDASTIC
+    fr: TUDASTIC
+  location:
+    en: Lille, France
+    fr: Lille, France
+- year: 2022
+  event:
+    en: Genopim kickoff
+    fr: Réunion de lancement de Genopim
+  location:
+    en: Rennes, France
+    fr: Rennes, France
+- year: 2021
+  event:
+    en: Kmer days
+    fr: Kmer days
+  location:
+    en: Marville, France
+    fr: Marville, France
+- year: 2019
+  event:
+    en: Biata
+    fr: Biata
+  location:
+    en: Saint Petersburg, Russia
+    fr: Saint-Pétersbourg, Russie
+- year: 2018
+  event:
+    en: RECOMB
+    fr: RECOMB
+  location:
+    en: Paris, France
+    fr: Paris, France

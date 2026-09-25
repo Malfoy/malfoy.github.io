@@ -1,7 +1,7 @@
 theme: jekyll-theme-minimal
 title: Antoine Limasset (Malfoy)
 description:  CNRS, CRIStAL, Université de Lille
-logo: /assets/images/antoine-limasset.png
+logo: /assets/images/antoine-limasset.webp
 lang: en
 markdown: kramdown
 show_downloads: false
@@ -18,6 +18,7 @@ social:
     - https://github.com/Malfoy
     - https://bsky.app/profile/npmalfoy.bsky.social
 exclude:
+  - MAINTENANCE.md
   - cv.tex
   - cv-public.tex
   - references_publications_mail.html

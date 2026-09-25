@@ -1,0 +1,54 @@
+en:
+  skip: Skip to content
+  home: Home
+  portrait: Portrait of Antoine Limasset
+  email: Email
+  search: Search publications
+  search_hint: Search titles, authors, venues or keywords
+  year: Year
+  all_years: All years
+  type: Reference type
+  all_types: All types
+  article: Journal article
+  inproceedings: Conference paper
+  misc: Preprint
+  reset: Reset filters
+  results: "{count} of {total} references"
+  empty: No references match these filters. Try a different search or reset the filters.
+  citation: Copy citation
+  bibtex: Copy BibTeX
+  show_bibtex: View BibTeX
+  copied: Copied to clipboard.
+  copy_failed: Copy unavailable. Select the text below and copy it manually.
+  manual_copy: Text to copy
+  paper: Paper
+  code: Code
+  readme: README
+  no_js: All references and BibTeX entries are available below. Enable JavaScript to search, filter and copy with one click.
+fr:
+  skip: Aller au contenu
+  home: Accueil
+  portrait: Portrait d’Antoine Limasset
+  email: Courriel
+  search: Rechercher une publication
+  search_hint: Rechercher par titre, auteur, revue ou mot-clé
+  year: Année
+  all_years: Toutes les années
+  type: Type de référence
+  all_types: Tous les types
+  article: Article de revue
+  inproceedings: Publication de conférence
+  misc: Prépublication
+  reset: Réinitialiser les filtres
+  results: "{count} références sur {total}"
+  empty: Aucune référence ne correspond à ces filtres. Modifiez la recherche ou réinitialisez les filtres.
+  citation: Copier la citation
+  bibtex: Copier le BibTeX
+  show_bibtex: Voir le BibTeX
+  copied: Texte copié.
+  copy_failed: Copie indisponible. Sélectionnez le texte ci-dessous et copiez-le manuellement.
+  manual_copy: Texte à copier
+  paper: Article
+  code: Code
+  readme: README
+  no_js: Toutes les références et les entrées BibTeX sont disponibles ci-dessous. Activez JavaScript pour rechercher, filtrer et copier en un clic.
